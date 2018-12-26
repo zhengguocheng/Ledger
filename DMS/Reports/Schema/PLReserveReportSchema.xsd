@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="PLReserveReportDs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="PLReserveReportDs" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NominalCode" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="NominalCodeID" type="xs:int" minOccurs="0" />
+              <xs:element name="Debit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Credit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="DocumentItemID" type="xs:long" minOccurs="0" />
+              <xs:element name="ItemType" type="xs:string" minOccurs="0" />
+              <xs:element name="TransferNominalCodeID" type="xs:int" minOccurs="0" />
+              <xs:element name="Notes" type="xs:string" minOccurs="0" />
+              <xs:element name="PB" type="xs:string" minOccurs="0" />
+              <xs:element name="Ref" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

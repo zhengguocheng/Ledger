@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SummaryReportSchema" targetNamespace="http://tempuri.org/SummaryReportSchema.xsd" xmlns:mstns="http://tempuri.org/SummaryReportSchema.xsd" xmlns="http://tempuri.org/SummaryReportSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SummaryReportSchema" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="SummaryReportSchema" msprop:Generator_UserDSName="SummaryReportSchema">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="SummaryTabel" msprop:Generator_TableClassName="SummaryTabelDataTable" msprop:Generator_TableVarName="tableSummaryTabel" msprop:Generator_RowChangedName="SummaryTabelRowChanged" msprop:Generator_TablePropName="SummaryTabel" msprop:Generator_RowDeletingName="SummaryTabelRowDeleting" msprop:Generator_RowChangingName="SummaryTabelRowChanging" msprop:Generator_RowEvHandlerName="SummaryTabelRowChangeEventHandler" msprop:Generator_RowDeletedName="SummaryTabelRowDeleted" msprop:Generator_RowClassName="SummaryTabelRow" msprop:Generator_UserTableName="SummaryTabel" msprop:Generator_RowEvArgName="SummaryTabelRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="OutVAT" msprop:Generator_ColumnVarNameInTable="columnOutVAT" msprop:Generator_ColumnPropNameInRow="OutVAT" msprop:Generator_ColumnPropNameInTable="OutVATColumn" msprop:Generator_UserColumnName="OutVAT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="InputVAT" msprop:Generator_ColumnVarNameInTable="columnInputVAT" msprop:Generator_ColumnPropNameInRow="InputVAT" msprop:Generator_ColumnPropNameInTable="InputVATColumn" msprop:Generator_UserColumnName="InputVAT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NetPayable" msprop:Generator_ColumnVarNameInTable="columnNetPayable" msprop:Generator_ColumnPropNameInRow="NetPayable" msprop:Generator_ColumnPropNameInTable="NetPayableColumn" msprop:Generator_UserColumnName="NetPayable" type="xs:decimal" minOccurs="0" />
+              <xs:element name="OutValue" msprop:Generator_ColumnVarNameInTable="columnOutValue" msprop:Generator_ColumnPropNameInRow="OutValue" msprop:Generator_ColumnPropNameInTable="OutValueColumn" msprop:Generator_UserColumnName="OutValue" type="xs:decimal" minOccurs="0" />
+              <xs:element name="InputValue" msprop:Generator_ColumnVarNameInTable="columnInputValue" msprop:Generator_ColumnPropNameInRow="InputValue" msprop:Generator_ColumnPropNameInTable="InputValueColumn" msprop:Generator_UserColumnName="InputValue" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

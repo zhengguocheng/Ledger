@@ -1,0 +1,10 @@
+E:\Code\Ledger\DAL\bin\Release\DAL.dll.config
+E:\Code\Ledger\DAL\bin\Release\DAL.dll
+E:\Code\Ledger\DAL\bin\Release\DAL.pdb
+E:\Code\Ledger\DAL\bin\Release\Utilities.dll
+E:\Code\Ledger\DAL\bin\Release\EPPlus.dll
+E:\Code\Ledger\DAL\bin\Release\DocX.dll
+E:\Code\Ledger\DAL\bin\Release\Utilities.pdb
+E:\Code\Ledger\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+E:\Code\Ledger\DAL\obj\Release\DAL.dll
+E:\Code\Ledger\DAL\obj\Release\DAL.pdb

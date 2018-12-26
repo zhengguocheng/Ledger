@@ -1,0 +1,31 @@
+
+---   04/11/2018 06:06:45   ---
+Error: Could not load file or assembly 'Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f' or one of its dependencies. The system cannot find the file specified.
+   at unvell.ReoScript.ScriptRunningMachine.InvokeFunction(ScriptContext context, Object ownerObject, AbstractFunctionObject funObject, Object[] args, Int32 charIndex, Int32 line)
+   at unvell.ReoScript.ScriptRunningMachine.CreateNewObject(ScriptContext context, AbstractFunctionObject constructor, Boolean invokeConstructor, Object[] constructArguments)
+   at unvell.ReoScript.TypedNativeFunctionObject.CreatePrototype(ScriptContext context)
+   at unvell.ReoScript.ScriptRunningMachine.SetGlobalVariable(String identifier, Object obj)
+   at unvell.ReoScript.BuiltinConstructors.ApplyToScriptRunningMachine(ScriptRunningMachine srm)
+   at unvell.ReoScript.ScriptRunningMachine.Reset()
+   at unvell.ReoScript.ScriptRunningMachine..ctor(CoreFeatures coreFeatures)
+   at d7.u()
+   at unvell.ReoGrid.Worksheet.RaiseScriptEvent(String eventName, ObjectValue eventArg)
+   at unvell.ReoGrid.Worksheet.c(Int32 A_0, Int32 A_1)
+   at unvell.ReoGrid.Worksheet..ctor(d7 A_0, String A_1, Int32 A_2, Int32 A_3)
+   at d7.CreateWorksheet(String name)
+   at unvell.ReoGrid.ReoGridControl.a(ae A_0)
+   at unvell.ReoGrid.ReoGridControl..ctor()
+   at DMS.CustomClasses.LedgerGrid..ctor() in E:\Code\Ledger\DMS\CustomClasses\LedgerGrid\ExcelGrid.cs:line 34
+   at DMS.UserControls.UcExcelSheet.InitializeComponent() in E:\Code\Ledger\DMS\UserControls\Payment\UcExcelSheet.Designer.cs:line 32
+   at DMS.UserControls.UcExcelSheet..ctor(Int64 _docItemID, String _sheetType) in E:\Code\Ledger\DMS\UserControls\Payment\UcExcelSheet.cs:line 29
+   at DMS.UcNavigation.OpenVirtualFile(tblDocumentItem itm, UserControlBase parentCntrl) in E:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 606
+   at DMS.UcNavigation.grdDocuments_DoubleClick(Object sender, EventArgs e) in E:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 576
+   at System.Windows.Forms.Control.OnDoubleClick(EventArgs e)
+   at Telerik.WinControls.RadControl.OnDoubleClick(EventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at Telerik.WinControls.RadControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

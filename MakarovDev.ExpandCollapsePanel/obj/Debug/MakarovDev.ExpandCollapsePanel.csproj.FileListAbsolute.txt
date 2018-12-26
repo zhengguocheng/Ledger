@@ -1,0 +1,106 @@
+D:\Projects\ExpandCollapsePanel-master\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+D:\Projects\ExpandCollapsePanel-master\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+D:\Projects\ExpandCollapsePanel-master\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\ExpandCollapsePanel-master\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+D:\Projects\ExpandCollapsePanel-master\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+D:\Projects\ExpandCollapsePanel-master\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+D:\Projects\ExpandCollapsePanel-master\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+D:\Projects\ExpandCollapsePanel-master\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\ExpandCollapsePanel-master\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\ExpandCollapsePanel-master\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+D:\Projects\ExpandCollapsePanel-master\ExpandCollapsePanel-master\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\GenerateResource.read.1.tlog
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\GenerateResource.write.1.tlog
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\MakarovDev.ExpandCollapsePanel\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Ledger Executable\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Ledger Executable\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Ledger Executable\MakarovDev.ExpandCollapsePanel.dll
+E:\Ledger Executable\MakarovDev.ExpandCollapsePanel.pdb
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csprojResolveAssemblyReference.cache
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Debug\MakarovDev.ExpandCollapsePanel.pdb

@@ -1,0 +1,32 @@
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\Ledgers.exe.config
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\Ledgers.exe
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\Ledgers.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\DAL.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\DMS.exe
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\Utilities.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\DocX.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\MSDN.HtmlEditorControl.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\OutlookIntegration.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\DAL.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\Utilities.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\DMS.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\MSDN.HtmlEditorControl.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\bin\Debug\OutlookIntegration.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\Ledgers.UcAccount.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\Ledgers.Resource1.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\Ledgers.UIForms.LedgerMainForm.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\Ledgers.UcAccountChartList.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\Ledgers.UcAccountChart.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\Ledgers.UcVATRate.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\Ledgers.UcVATRateList.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\DMS Executable\Ledgers.exe.config
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\Ledgers.UcLedgerClientList.resources
+D:\DMS Executable\Ledgers.exe
+D:\DMS Executable\Ledgers.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\Ledgers.exe
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Ledgers\obj\x86\Debug\Ledgers.pdb

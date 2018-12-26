@@ -1,0 +1,10 @@
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\bin\Release\MakarovDev.ExpandCollapsePanel.dll
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\bin\Release\MakarovDev.ExpandCollapsePanel.pdb
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Release\MakarovDev.ExpandCollapsePanel.csprojResolveAssemblyReference.cache
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Release\MakarovDev.ExpandCollapsePanel.AdvancedFlowLayoutPanel.resources
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Release\MakarovDev.ExpandCollapsePanel.ExpandCollapseButton.resources
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Release\MakarovDev.ExpandCollapsePanel.ExpandCollapsePanel.resources
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Release\MakarovDev.ExpandCollapsePanel.Properties.Resources.resources
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Release\MakarovDev.ExpandCollapsePanel.csproj.GenerateResource.Cache
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Release\MakarovDev.ExpandCollapsePanel.dll
+E:\Code\Ledger\MakarovDev.ExpandCollapsePanel\obj\Release\MakarovDev.ExpandCollapsePanel.pdb

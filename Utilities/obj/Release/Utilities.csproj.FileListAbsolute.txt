@@ -1,0 +1,8 @@
+E:\Code\Ledger\Utilities\bin\Release\Utilities.dll.config
+E:\Code\Ledger\Utilities\bin\Release\Utilities.dll
+E:\Code\Ledger\Utilities\bin\Release\Utilities.pdb
+E:\Code\Ledger\Utilities\bin\Release\DocX.dll
+E:\Code\Ledger\Utilities\bin\Release\EPPlus.dll
+E:\Code\Ledger\Utilities\obj\Release\Utilities.csprojResolveAssemblyReference.cache
+E:\Code\Ledger\Utilities\obj\Release\Utilities.dll
+E:\Code\Ledger\Utilities\obj\Release\Utilities.pdb

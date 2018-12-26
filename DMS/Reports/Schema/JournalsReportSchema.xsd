@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="JournalsReportDs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="JournalsReportDs" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1" msdata:CaseSensitive="False" msdata:Locale="en-US">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Source" type="xs:string" minOccurs="0" />
+              <xs:element name="Debit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Credit" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Balance" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Order" type="xs:int" minOccurs="0" />
+              <xs:element name="NominalCodeID" type="xs:string" minOccurs="0" />
+              <xs:element name="NominalCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Notes" type="xs:string" minOccurs="0" />
+              <xs:element name="RecordType" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

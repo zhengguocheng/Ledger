@@ -1,0 +1,219 @@
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\FrontEnd.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\FrontEnd.csproj.ResolveComReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.RadForm1.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.Reports.UcRptNextYrOpnBal.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.Reports.UcRptReconcile.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.Reports.UcRptJournals.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.Reports.UcRptThisYrClosingTrialBal.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.Reports.UcRptPaymentSummary.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.Reports.UcRDLC_Viewer.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.LedgerMainForm.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcBankReconcile.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcTaggedDocumentList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcClient.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcStarDocumentList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcGroup.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcClientGroupList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcGroupList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcDescription.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcDescriptionList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\WordControls.DocBrowser.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcMultipleEntJournal.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcJournal.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcAccountChart.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcAccountChartList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcAccountGroup.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcAccountGroupList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcAccount.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcAnalysisCode.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcAnalysisCodeList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcBanking.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcBankPayment.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcAnalysisReport.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcVATReport.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcLedgerReport.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcPCB.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcPettyCash.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcCreateYearEndFolder.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcGenericList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcGenericItem.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcSupplierList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcSupplier.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcLedger.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcVATRate.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcVATRateList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UIForms.FrmDialougeBox.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcFolderSelecttion.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcNavigation.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcTestExcel.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcExcelSheet.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcDateRange.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcSupplierPopup.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcInputText.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcUnLockSheet.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcGridSearch.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcDescriptionPopup.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcVATCodePopup.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcNominalCodePopup.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcRecycleBin.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcSDB.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.StyleButton.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcAddDocument.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcClientDocuments.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcDocumentList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcClientList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcEdit.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcCalender.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcClosingTrialBalance.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcTrialBalance.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\FrontEnd.UcLogin.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcSaveFolder.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\FrontEnd.PagingControl.UCPaging.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcUserList.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UcUser.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\FrontEnd.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\RdlCompile.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\RdlCompile.compiled
+E:\Source Code\Ledger Executable\SqlServerTypes\x64\msvcr100.dll
+E:\Source Code\Ledger Executable\SqlServerTypes\x64\SqlServerSpatial110.dll
+E:\Source Code\Ledger Executable\SqlServerTypes\x86\msvcr100.dll
+E:\Source Code\Ledger Executable\SqlServerTypes\x86\SqlServerSpatial110.dll
+E:\Source Code\Ledger Executable\Ledger.exe.config
+E:\Source Code\Ledger Executable\Ledger.exe
+E:\Source Code\Ledger Executable\Ledger.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\Ledger.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\Ledger.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\MakarovDev.ExpandCollapsePanel\obj\x86\Debug\FrontEnd.csproj.ResolveComReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\MakarovDev.ExpandCollapsePanel\obj\x86\Debug\Ledger.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\MakarovDev.ExpandCollapsePanel\obj\x86\Debug\Ledger.pdb
+E:\Source Code\Ledger Executable\Reports\RDLC\RptPaymentSummary.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptThisYrClosingTrialBal.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptReconcile.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptJournals.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptMultipleEntJournal.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptNextYrOpnBal - Copy.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptPLReserve.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptNextYrOpnBal.rdlc
+E:\Source Code\Ledger Executable\Reports\Controls\UcRptNextYrOpnBal.resx
+E:\Source Code\Ledger Executable\Reports\Controls\UcRptNextYrOpnBal.cs
+E:\Source Code\Ledger Executable\Reports\Controls\UcRptNextYrOpnBal.Designer.cs
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DMS\obj\x86\Debug\DMS.UserControls.UcFindReplaceDesc.resources
+E:\Ledger Executable\SqlServerTypes\x64\msvcr100.dll
+E:\Ledger Executable\SqlServerTypes\x64\SqlServerSpatial110.dll
+E:\Ledger Executable\SqlServerTypes\x86\msvcr100.dll
+E:\Ledger Executable\SqlServerTypes\x86\SqlServerSpatial110.dll
+E:\Ledger Executable\Reports\RDLC\RptPaymentSummary.rdlc
+E:\Ledger Executable\Reports\RDLC\RptThisYrClosingTrialBal.rdlc
+E:\Ledger Executable\Reports\RDLC\RptReconcile.rdlc
+E:\Ledger Executable\Reports\RDLC\PaymentReport.rdlc
+E:\Ledger Executable\Reports\RDLC\ReceiptsReport.rdlc
+E:\Ledger Executable\Reports\RDLC\RptJournals.rdlc
+E:\Ledger Executable\Reports\RDLC\RptMultipleEntJournal.rdlc
+E:\Ledger Executable\Reports\RDLC\RptNextYrOpnBal - Copy.rdlc
+E:\Ledger Executable\Reports\RDLC\RptPLReserve.rdlc
+E:\Ledger Executable\Reports\RDLC\RptNextYrOpnBal.rdlc
+E:\Ledger Executable\Reports\RDLC\SDBReport.rdlc
+E:\Ledger Executable\Reports\RDLC\SummaryReport.rdlc
+E:\Ledger Executable\Reports\Controls\UcRptNextYrOpnBal.resx
+E:\Ledger Executable\Reports\Controls\UcRptNextYrOpnBal.cs
+E:\Ledger Executable\Reports\Controls\UcRptNextYrOpnBal.Designer.cs
+E:\Ledger Executable\Reports\Schema\PaymentReportSchema.Designer.cs
+E:\Ledger Executable\Reports\Schema\ReceiptsReportSchema.Designer.cs
+E:\Ledger Executable\Reports\Schema\SummaryReportSchema.Designer.cs
+E:\Ledger Executable\Reports\Schema\VATReportSchema.Designer.cs
+E:\Ledger Executable\Reports\Schema\PaymentReportSchema.xsc
+E:\Ledger Executable\Reports\Schema\PaymentReportSchema.xsd
+E:\Ledger Executable\Reports\Schema\PaymentReportSchema.xss
+E:\Ledger Executable\Reports\Schema\ReceiptsReportSchema.xsc
+E:\Ledger Executable\Reports\Schema\ReceiptsReportSchema.xsd
+E:\Ledger Executable\Reports\Schema\ReceiptsReportSchema.xss
+E:\Ledger Executable\Reports\Schema\SummaryReportSchema.xsc
+E:\Ledger Executable\Reports\Schema\SummaryReportSchema.xsd
+E:\Ledger Executable\Reports\Schema\SummaryReportSchema.xss
+E:\Ledger Executable\Reports\Schema\VATReportSchema.xsc
+E:\Ledger Executable\Reports\Schema\VATReportSchema.xsd
+E:\Ledger Executable\Reports\Schema\VATReportSchema.xss
+E:\Ledger Executable\Ledger.exe.config
+E:\Ledger Executable\Ledger.exe
+E:\Ledger Executable\Ledger.pdb
+E:\Code\Ledger\DMS\obj\x86\Debug\FrontEnd.csprojResolveAssemblyReference.cache
+E:\Code\Ledger\DMS\obj\x86\Debug\FrontEnd.csproj.ResolveComReference.cache
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.Properties.Resources.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.RadForm1.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.Reports.UcRptNextYrOpnBal.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.Reports.UcRptReconcile.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.Reports.UcRptJournals.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.Reports.UcRptThisYrClosingTrialBal.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.Reports.UcRptPaymentSummary.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.Reports.UcRDLC_Viewer.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.LedgerMainForm.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcBankReconcile.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcTaggedDocumentList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcClient.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcStarDocumentList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcGroup.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcClientGroupList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcGroupList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcDescription.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcDescriptionList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcFindReplaceDesc.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\WordControls.DocBrowser.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcMultipleEntJournal.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcJournal.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcAccountChart.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcAccountChartList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcAccountGroup.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcAccountGroupList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcAccount.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcAnalysisCode.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcAnalysisCodeList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcBanking.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcBankPayment.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcAnalysisReport.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcVATReport.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcLedgerReport.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcPCB.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcPettyCash.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcCreateYearEndFolder.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcGenericList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcGenericItem.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcSupplierList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcSupplier.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcLedger.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcVATRate.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcVATRateList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UIForms.FrmDialougeBox.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcFolderSelecttion.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcNavigation.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcTestExcel.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcExcelSheet.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcDateRange.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcSupplierPopup.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcInputText.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcUnLockSheet.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcGridSearch.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcDescriptionPopup.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcVATCodePopup.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.Popups.UcNominalCodePopup.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcRecycleBin.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcSDB.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.StyleButton.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcAddDocument.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcClientDocuments.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcDocumentList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcClientList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcEdit.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcCalender.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcClosingTrialBalance.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcTrialBalance.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\FrontEnd.UcLogin.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UserControls.UcSaveFolder.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\FrontEnd.PagingControl.UCPaging.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcUserList.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\DMS.UcUser.resources
+E:\Code\Ledger\DMS\obj\x86\Debug\FrontEnd.csproj.GenerateResource.Cache
+E:\Code\Ledger\DMS\obj\x86\Debug\RdlCompile.cache
+E:\Code\Ledger\DMS\obj\x86\Debug\RdlCompile.compiled
+E:\Code\Ledger\DMS\obj\x86\Debug\Ledger.exe
+E:\Code\Ledger\DMS\obj\x86\Debug\Ledger.pdb

@@ -1,0 +1,26 @@
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\obj\x86\Debug\DMS.Form1.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\obj\x86\Debug\DMS.Properties.Resources.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\bin\Debug\DMS.exe
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\bin\Debug\DMS.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\bin\Debug\DAL.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\bin\Debug\DAL.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\obj\x86\Debug\DMS.exe
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\obj\x86\Debug\DMS.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS\bin\Debug\DMS.exe.config
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\bin\Debug\DMS.exe.config
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\obj\x86\Debug\DMS.exe
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\obj\x86\Debug\DMS.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\bin\Debug\DMS.exe
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\bin\Debug\DMS.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\bin\Debug\DAL.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\bin\Debug\DAL.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\obj\x86\Debug\DMS.Form1.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\obj\x86\Debug\DMS.Properties.Resources.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\obj\x86\Debug\DMS.UIForms.MainShell.resources
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DMS\obj\x86\Debug\DMS.UIForms.UserControl1.resources

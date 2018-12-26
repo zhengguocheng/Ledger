@@ -1,0 +1,20 @@
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\bin\x86\Debug\Ledger Auto Updater.exe.config
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\bin\x86\Debug\Ledger Auto Updater.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\bin\x86\Debug\Ledger Auto Updater.pdb
+E:\Source Code\Ledger Executable\AutoUpdater.exe.config
+E:\Source Code\Ledger Executable\AutoUpdater.exe
+E:\Source Code\Ledger Executable\AutoUpdater.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\obj\x86\Debug\DMS.UIForms.FrmAutoUpdate.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\obj\x86\Debug\AutoUpdater.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\obj\x86\Debug\AutoUpdater.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\obj\x86\Debug\AutoUpdater.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\obj\x86\Debug\AutoUpdater.pdb
+E:\Source Code\Projects\Ledger Executable\AutoUpdater.exe.config
+E:\Source Code\Projects\Ledger Executable\AutoUpdater.exe
+E:\Source Code\Projects\Ledger Executable\AutoUpdater.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\AutoUpdater\obj\x86\Debug\AutoUpdater.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\AutoUpdater\obj\x86\Debug\DMS.UIForms.FrmAutoUpdate.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\AutoUpdater\obj\x86\Debug\AutoUpdater.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\AutoUpdater\obj\x86\Debug\AutoUpdater.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\AutoUpdater\obj\x86\Debug\AutoUpdater.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\AutoUpdater\obj\x86\Debug\AutoUpdater.pdb

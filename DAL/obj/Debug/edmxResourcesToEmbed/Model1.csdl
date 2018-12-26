@@ -1,0 +1,1275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="dbDMSModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="dbDMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Clients" EntityType="dbDMSModel.Client" />
+    <EntitySet Name="DeadlineTrackings" EntityType="dbDMSModel.DeadlineTracking" />
+    <EntitySet Name="RollOverHistories" EntityType="dbDMSModel.RollOverHistory" />
+    <EntitySet Name="sysdiagrams" EntityType="dbDMSModel.sysdiagram" />
+    <EntitySet Name="tblAccountGroups" EntityType="dbDMSModel.tblAccountGroup" />
+    <EntitySet Name="tblAccounts" EntityType="dbDMSModel.tblAccount" />
+    <EntitySet Name="tblAnalysisCodes" EntityType="dbDMSModel.tblAnalysisCode" />
+    <EntitySet Name="tblBankings" EntityType="dbDMSModel.tblBanking" />
+    <EntitySet Name="tblBankPayments" EntityType="dbDMSModel.tblBankPayment" />
+    <EntitySet Name="tblBankReconciles" EntityType="dbDMSModel.tblBankReconcile" />
+    <EntitySet Name="tblChartAccounts" EntityType="dbDMSModel.tblChartAccount" />
+    <EntitySet Name="tblCities" EntityType="dbDMSModel.tblCity" />
+    <EntitySet Name="tblClosingTrialBalances" EntityType="dbDMSModel.tblClosingTrialBalance" />
+    <EntitySet Name="tblDescriptions" EntityType="dbDMSModel.tblDescription" />
+    <EntitySet Name="tblDocStatus" EntityType="dbDMSModel.tblDocStatu" />
+    <EntitySet Name="tblDocumentItems" EntityType="dbDMSModel.tblDocumentItem" />
+    <EntitySet Name="tblDocumentTemplates" EntityType="dbDMSModel.tblDocumentTemplate" />
+    <EntitySet Name="tblEmails" EntityType="dbDMSModel.tblEmail" />
+    <EntitySet Name="tblEmailTemplates" EntityType="dbDMSModel.tblEmailTemplate" />
+    <EntitySet Name="tblExcelSheets" EntityType="dbDMSModel.tblExcelSheet" />
+    <EntitySet Name="tblGenericLists" EntityType="dbDMSModel.tblGenericList" />
+    <EntitySet Name="tblGenericListTypes" EntityType="dbDMSModel.tblGenericListType" />
+    <EntitySet Name="tblGroupClients" EntityType="dbDMSModel.tblGroupClient" />
+    <EntitySet Name="tblGroups" EntityType="dbDMSModel.tblGroup" />
+    <EntitySet Name="tblItemInfoes" EntityType="dbDMSModel.tblItemInfo" />
+    <EntitySet Name="tblJournals" EntityType="dbDMSModel.tblJournal" />
+    <EntitySet Name="tblLedgers" EntityType="dbDMSModel.tblLedger" />
+    <EntitySet Name="tblMultipleEntJournals" EntityType="dbDMSModel.tblMultipleEntJournal" />
+    <EntitySet Name="tblOutlookEmails" EntityType="dbDMSModel.tblOutlookEmail" />
+    <EntitySet Name="tblPCBs" EntityType="dbDMSModel.tblPCB" />
+    <EntitySet Name="tblPettyCashes" EntityType="dbDMSModel.tblPettyCash" />
+    <EntitySet Name="tblProvinces" EntityType="dbDMSModel.tblProvince" />
+    <EntitySet Name="tblSDBs" EntityType="dbDMSModel.tblSDB" />
+    <EntitySet Name="tblSDBSettings" EntityType="dbDMSModel.tblSDBSetting" />
+    <EntitySet Name="tblSettings" EntityType="dbDMSModel.tblSetting" />
+    <EntitySet Name="tblStatus" EntityType="dbDMSModel.tblStatu" />
+    <EntitySet Name="tblSuppliers" EntityType="dbDMSModel.tblSupplier" />
+    <EntitySet Name="tblTags" EntityType="dbDMSModel.tblTag" />
+    <EntitySet Name="tblTasks" EntityType="dbDMSModel.tblTask" />
+    <EntitySet Name="tblTokens" EntityType="dbDMSModel.tblToken" />
+    <EntitySet Name="tblTrialBalances" EntityType="dbDMSModel.tblTrialBalance" />
+    <EntitySet Name="tblVATRates" EntityType="dbDMSModel.tblVATRate" />
+    <EntitySet Name="tblViews" EntityType="dbDMSModel.tblView" />
+    <EntitySet Name="TimeTrackings" EntityType="dbDMSModel.TimeTracking" />
+    <EntitySet Name="Users" EntityType="dbDMSModel.User" />
+    <EntitySet Name="WorkNatures" EntityType="dbDMSModel.WorkNature" />
+    <EntitySet Name="ImportDatas" EntityType="dbDMSModel.ImportData" />
+    <EntitySet Name="VwClientTemplates" EntityType="dbDMSModel.VwClientTemplate" />
+    <EntitySet Name="VwCurrentDeadlines" EntityType="dbDMSModel.VwCurrentDeadline" />
+    <EntitySet Name="VwDocumentLists" EntityType="dbDMSModel.VwDocumentList" />
+    <EntitySet Name="VwExcelSheets" EntityType="dbDMSModel.VwExcelSheet" />
+    <EntitySet Name="VwHistoryDeadlineTrackings" EntityType="dbDMSModel.VwHistoryDeadlineTracking" />
+    <EntitySet Name="VwItemInfoes" EntityType="dbDMSModel.VwItemInfo" />
+    <EntitySet Name="VwOutlookEmails" EntityType="dbDMSModel.VwOutlookEmail" />
+    <EntitySet Name="VwSuppliers" EntityType="dbDMSModel.VwSupplier" />
+    <EntitySet Name="VwTrackingSystems" EntityType="dbDMSModel.VwTrackingSystem" />
+    <AssociationSet Name="FK_tblAccounts_Client" Association="dbDMSModel.FK_tblAccounts_Client">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="tblAccount" EntitySet="tblAccounts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblGroupClient_Client" Association="dbDMSModel.FK_tblGroupClient_Client">
+      <End Role="Client" EntitySet="Clients" />
+      <End Role="tblGroupClient" EntitySet="tblGroupClients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblDocumentTemplate_tblView" Association="dbDMSModel.FK_tblDocumentTemplate_tblView">
+      <End Role="tblView" EntitySet="tblViews" />
+      <End Role="tblDocumentTemplate" EntitySet="tblDocumentTemplates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblEmailTemplate_tblView" Association="dbDMSModel.FK_tblEmailTemplate_tblView">
+      <End Role="tblView" EntitySet="tblViews" />
+      <End Role="tblEmailTemplate" EntitySet="tblEmailTemplates" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblGroupClient_tblGroups" Association="dbDMSModel.FK_tblGroupClient_tblGroups">
+      <End Role="tblGroup" EntitySet="tblGroups" />
+      <End Role="tblGroupClient" EntitySet="tblGroupClients" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblTask_tblStatus" Association="dbDMSModel.FK_tblTask_tblStatus">
+      <End Role="tblStatu" EntitySet="tblStatus" />
+      <End Role="tblTask" EntitySet="tblTasks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tblToken_tblView" Association="dbDMSModel.FK_tblToken_tblView">
+      <End Role="tblView" EntitySet="tblViews" />
+      <End Role="tblToken" EntitySet="tblTokens" />
+    </AssociationSet>
+    <AssociationSet Name="TimeTracking_WorkNatureTimeTracking" Association="dbDMSModel.TimeTracking_WorkNatureTimeTracking">
+      <End Role="WorkNature" EntitySet="WorkNatures" />
+      <End Role="TimeTracking" EntitySet="TimeTrackings" />
+    </AssociationSet>
+    <EntitySet Name="VwChartAccts" EntityType="dbDMSModel.VwChartAcct" />
+    <EntitySet Name="VwExcelSheetClients" EntityType="dbDMSModel.VwExcelSheetClient" />
+    <EntitySet Name="tblRecycleBins" EntityType="dbDMSModel.tblRecycleBin" />
+  </EntityContainer>
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Reference" Type="String" MaxLength="260" FixedLength="false" Unicode="true" />
+    <Property Name="Client_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Trading_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Post_Code" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="National_Insurance" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="UTR" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="VAT_Registration_Number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Company_Number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PAYEE" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PayeeAccRef" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="BusinessAddress" Type="String" MaxLength="1500" FixedLength="false" Unicode="true" />
+    <Property Name="HomeAddress" Type="String" MaxLength="1500" FixedLength="false" Unicode="true" />
+    <Property Name="BusinessPhoneNo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="HomePhoneNo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FaxNo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="MobileNo1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="MobileNo2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EmailAddress1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EmailAddress2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="SSMA_TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <NavigationProperty Name="tblAccounts" Relationship="dbDMSModel.FK_tblAccounts_Client" FromRole="Client" ToRole="tblAccount" />
+    <NavigationProperty Name="tblGroupClients" Relationship="dbDMSModel.FK_tblGroupClient_Client" FromRole="Client" ToRole="tblGroupClient" />
+  </EntityType>
+  <EntityType Name="DeadlineTracking">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsNewClient" Type="Boolean" />
+    <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DateofIncorporation" Type="DateTime" Precision="0" />
+    <Property Name="AccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="AnnualReturnDate" Type="DateTime" Precision="0" />
+    <Property Name="VATStatus" Type="Boolean" />
+    <Property Name="VATQuarter" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CommencmentTradeDate" Type="DateTime" Precision="0" />
+    <Property Name="CopTaxReturnDueDate" Type="DateTime" Precision="0" />
+    <Property Name="CessationTradeDate" Type="DateTime" Precision="0" />
+    <Property Name="DeadlineFilingDate" Type="DateTime" Precision="0" />
+    <Property Name="TaxRetFilingDate" Type="DateTime" Precision="0" />
+    <Property Name="TaxReturnSerReq" Type="Boolean" />
+    <Property Name="CeaseToTrade" Type="Boolean" />
+    <Property Name="Due31_7" Type="Single" />
+    <Property Name="Due31_1" Type="Single" />
+    <Property Name="CTPayable" Type="Single" />
+    <Property Name="AcctFilingDeadline" Type="DateTime" Precision="0" />
+    <Property Name="RollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DateSent" Type="DateTime" Precision="0" />
+    <Property Name="DateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="DateFiled" Type="DateTime" Precision="0" />
+    <Property Name="CoopRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CoopNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CoopDateSent" Type="DateTime" Precision="0" />
+    <Property Name="CoopDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="CoopDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="ARRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ARNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ARDateSent" Type="DateTime" Precision="0" />
+    <Property Name="ARDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="ARDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="TRRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TRNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TRDateSent" Type="DateTime" Precision="0" />
+    <Property Name="TRDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="TRDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="STRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="STNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="STDateSent" Type="DateTime" Precision="0" />
+    <Property Name="STDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="STDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="ARAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="CoopAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="TRAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="STAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="SSMA_TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="CopAccountingYearEndDate2nd" Type="DateTime" Precision="0" />
+    <Property Name="CopTaxReturnDueDate2nd" Type="DateTime" Precision="0" />
+    <Property Name="Fees" Type="Single" />
+    <Property Name="IsInvoiced" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="RollOverHistory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="IsNewClient" Type="Boolean" />
+    <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DateofIncorporation" Type="DateTime" Precision="0" />
+    <Property Name="AccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="AnnualReturnDate" Type="DateTime" Precision="0" />
+    <Property Name="VATStatus" Type="Boolean" />
+    <Property Name="VATQuarter" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CommencmentTradeDate" Type="DateTime" Precision="0" />
+    <Property Name="CopTaxReturnDueDate" Type="DateTime" Precision="0" />
+    <Property Name="CessationTradeDate" Type="DateTime" Precision="0" />
+    <Property Name="DeadlineFilingDate" Type="DateTime" Precision="0" />
+    <Property Name="TaxRetFilingDate" Type="DateTime" Precision="0" />
+    <Property Name="TaxReturnSerReq" Type="Boolean" />
+    <Property Name="CeaseToTrade" Type="Boolean" />
+    <Property Name="Due31_7" Type="Single" />
+    <Property Name="Due31_1" Type="Single" />
+    <Property Name="CTPayable" Type="Single" />
+    <Property Name="AcctFilingDeadline" Type="DateTime" Precision="0" />
+    <Property Name="RollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DateSent" Type="DateTime" Precision="0" />
+    <Property Name="DateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="DateFiled" Type="DateTime" Precision="0" />
+    <Property Name="CoopRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CoopNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CoopDateSent" Type="DateTime" Precision="0" />
+    <Property Name="CoopDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="CoopDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="ARRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ARNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ARDateSent" Type="DateTime" Precision="0" />
+    <Property Name="ARDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="ARDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="TRRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TRNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TRDateSent" Type="DateTime" Precision="0" />
+    <Property Name="TRDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="TRDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="STRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="STNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="STDateSent" Type="DateTime" Precision="0" />
+    <Property Name="STDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="STDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="ARAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="CoopAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="TRAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="STAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="SSMA_TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="CopAccountingYearEndDate2nd" Type="DateTime" Precision="0" />
+    <Property Name="CopTaxReturnDueDate2nd" Type="DateTime" Precision="0" />
+    <Property Name="Fees" Type="Single" />
+    <Property Name="IsInvoiced" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tblAccountGroup">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="YearEndFolderID" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblAccount">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="Reference" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
+    <Property Name="Amount" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="VAT_ID" Type="Int32" />
+    <Property Name="Net" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="AnalysisCodeID" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Detail" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Client" Relationship="dbDMSModel.FK_tblAccounts_Client" FromRole="tblAccount" ToRole="Client" />
+  </EntityType>
+  <EntityType Name="tblAnalysisCode">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="YearEndFolderID" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblBanking">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Details" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="GrossTaking" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="VATRateID" Type="Int32" Nullable="false" />
+    <Property Name="VAT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NetTaking" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="AnalysisCodeID" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DocumentItemID" Type="Int64" />
+    <Property Name="BankReconciliation" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tblBankPayment">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Details" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="GrossTaking" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="VATRateID" Type="Int32" Nullable="false" />
+    <Property Name="VAT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NetTaking" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="AnalysisCodeID" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DocumentItemID" Type="Int64" />
+    <Property Name="BankReconciliation" Type="Boolean" />
+    <Property Name="ChequeNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tblBankReconcile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Details" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ChequeNo" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Payment" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Receipt" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Tick" Type="Boolean" />
+    <Property Name="DocumentItemID" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblChartAccount">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AccountGroupID" Type="Int32" />
+    <Property Name="YearEndCodeID" Type="Int32" />
+    <Property Name="YearEndFolderID" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblCity">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tblClosingTrialBalance">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NominalCodeID" Type="Int32" />
+    <Property Name="Debit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Credit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DocumentItemID" Type="Int64" />
+    <Property Name="ItemType" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="TransferNominalCodeID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="tblDescription">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Description" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tblDocStatu">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tblDocumentItem">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="IsFolder" Type="Boolean" Nullable="false" />
+    <Property Name="ParentID" Type="Int64" Nullable="false" />
+    <Property Name="Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="EncryptedName" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="RecordTypeID" Type="Int32" />
+    <Property Name="RecordID" Type="Int32" Nullable="false" />
+    <Property Name="OrderNO" Type="Int32" />
+    <Property Name="CreatedAT" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int32" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="ItemTag" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="IsVirtual" Type="Boolean" />
+    <Property Name="YearEndDate" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="tblDocumentTemplate">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ViewID" Type="Int32" />
+    <Property Name="Subject" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Path" Type="String" Nullable="false" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAT" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int32" />
+    <NavigationProperty Name="tblView" Relationship="dbDMSModel.FK_tblDocumentTemplate_tblView" FromRole="tblDocumentTemplate" ToRole="tblView" />
+  </EntityType>
+  <EntityType Name="tblEmail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ReceiverEmail" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SenderEmail" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Body" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateSent" Type="DateTime" Precision="3" />
+    <Property Name="Subject" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="IsSent" Type="Boolean" />
+    <Property Name="EmailTemplateID" Type="Int32" />
+    <Property Name="Priority" Type="Int32" />
+    <Property Name="RecordID" Type="Int64" />
+    <Property Name="TableID" Type="Int32" />
+    <Property Name="SendingDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tblEmailTemplate">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ViewID" Type="Int32" />
+    <Property Name="Subject" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Body" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAT" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int32" />
+    <NavigationProperty Name="tblView" Relationship="dbDMSModel.FK_tblEmailTemplate_tblView" FromRole="tblEmailTemplate" ToRole="tblView" />
+  </EntityType>
+  <EntityType Name="tblExcelSheet">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Reference" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Gross" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="VATCode" Type="Int32" />
+    <Property Name="VAT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Net" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NominalCode" Type="Int32" />
+    <Property Name="DocumentItemID" Type="Int64" />
+    <Property Name="Comment" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SplitParentID" Type="Int32" />
+    <Property Name="Tick" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tblGenericList">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="TypeID" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblGenericListType">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="TypeName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tblGroupClient">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientID" Type="Int32" Nullable="false" />
+    <Property Name="GroupID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Client" Relationship="dbDMSModel.FK_tblGroupClient_Client" FromRole="tblGroupClient" ToRole="Client" />
+    <NavigationProperty Name="tblGroup" Relationship="dbDMSModel.FK_tblGroupClient_tblGroups" FromRole="tblGroupClient" ToRole="tblGroup" />
+  </EntityType>
+  <EntityType Name="tblGroup">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GroupName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblGroupClients" Relationship="dbDMSModel.FK_tblGroupClient_tblGroups" FromRole="tblGroup" ToRole="tblGroupClient" />
+  </EntityType>
+  <EntityType Name="tblItemInfo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OpeningBal" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="DocumentItemID" Type="Int64" />
+    <Property Name="BankName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ReconcileDate" Type="DateTime" Precision="0" />
+    <Property Name="AccountNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AnalysisCodeID" Type="Int32" />
+    <Property Name="Period" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LockedByUserID" Type="Int32" />
+    <Property Name="YearEndFolderID" Type="Int64" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="tblJournal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Reference" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DebitNominalCodeID" Type="Int32" />
+    <Property Name="CreditNominalCodeID" Type="Int32" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DocumentItemID" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblLedger">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Reference" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Details" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Depit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Credit" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+    <Property Name="Balance" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="AnalysisCodeID" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DocumentItemID" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblMultipleEntJournal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Reference" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NominalCodeID" Type="Int32" />
+    <Property Name="Credit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Debit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Notes" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DocumentItemID" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblOutlookEmail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SenderEmailAddress" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Subject" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Body" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BCC" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="BillingInformation" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Categories" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CC" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="Companies" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreationTime" Type="DateTime" Precision="3" />
+    <Property Name="EntryID" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="HTMLBody" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IsMarkedAsTask" Type="Boolean" />
+    <Property Name="ReceivedByName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ReceivedTime" Type="DateTime" Precision="3" />
+    <Property Name="To" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="ExtractedMachine" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ExtractedProfile" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Precision="3" />
+    <Property Name="ToAddress" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="OutlookFolderPath" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsError" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tblPCB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Details" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="GrossTaking" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="VATRateID" Type="Int32" Nullable="false" />
+    <Property Name="VAT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NetTaking" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="AnalysisCodeID" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DocumentItemID" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblPettyCash">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Details" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GrossTaking" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="VATRateID" Type="Int32" Nullable="false" />
+    <Property Name="VAT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NetTaking" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="AnalysisCodeID" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DocumentItemID" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblProvince">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tblSDB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DocumentItemID" Type="Int64" Nullable="false" />
+    <Property Name="Gross1" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Gross2" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Gross3" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Gross4" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Gross5" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Gross6" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Total" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="tblSDBSetting">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DocumentItemID" Type="Int64" Nullable="false" />
+    <Property Name="Nominal1" Type="Int32" />
+    <Property Name="Nominal2" Type="Int32" />
+    <Property Name="Nominal3" Type="Int32" />
+    <Property Name="Nominal4" Type="Int32" />
+    <Property Name="Nominal5" Type="Int32" />
+    <Property Name="Nominal6" Type="Int32" />
+    <Property Name="VAT1" Type="Int32" />
+    <Property Name="VAT2" Type="Int32" />
+    <Property Name="VAT3" Type="Int32" />
+    <Property Name="VAT4" Type="Int32" />
+    <Property Name="VAT5" Type="Int32" />
+    <Property Name="VAT6" Type="Int32" />
+    <Property Name="TotalVAT1" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TotalVAT2" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TotalVAT3" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TotalVAT4" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TotalVAT5" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TotalVAT6" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="OverrideVAT" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tblSetting">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Value" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="UseValue" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblStatu">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StatusName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblTasks" Relationship="dbDMSModel.FK_tblTask_tblStatus" FromRole="tblStatu" ToRole="tblTask" />
+  </EntityType>
+  <EntityType Name="tblSupplier">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NominalCodeID" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tblTag">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TagName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tblTask">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="Detail" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="AssignedTo" Type="Int32" />
+    <Property Name="EndDate" Type="DateTime" Precision="0" />
+    <Property Name="ReminderBeforeDays" Type="Int32" />
+    <Property Name="IsReminderOn" Type="Boolean" />
+    <Property Name="ReminderSentDate" Type="DateTime" Precision="0" />
+    <Property Name="StatusID" Type="Int32" />
+    <Property Name="IsArchived" Type="Boolean" />
+    <Property Name="CreatedAT" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int32" />
+    <NavigationProperty Name="tblStatu" Relationship="dbDMSModel.FK_tblTask_tblStatus" FromRole="tblTask" ToRole="tblStatu" />
+  </EntityType>
+  <EntityType Name="tblToken">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TokenName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ViewID" Type="Int32" Nullable="false" />
+    <Property Name="TokenColumn" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblView" Relationship="dbDMSModel.FK_tblToken_tblView" FromRole="tblToken" ToRole="tblView" />
+  </EntityType>
+  <EntityType Name="tblTrialBalance">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NominalCodeID" Type="Int32" />
+    <Property Name="Debit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Credit" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="DocumentItemID" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblVATRate">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Percentage" Type="Decimal" Nullable="false" Precision="5" Scale="2" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="YearEndFolderID" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tblView">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DisplayName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ViewName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tblDocumentTemplates" Relationship="dbDMSModel.FK_tblDocumentTemplate_tblView" FromRole="tblView" ToRole="tblDocumentTemplate" />
+    <NavigationProperty Name="tblEmailTemplates" Relationship="dbDMSModel.FK_tblEmailTemplate_tblView" FromRole="tblView" ToRole="tblEmailTemplate" />
+    <NavigationProperty Name="tblTokens" Relationship="dbDMSModel.FK_tblToken_tblView" FromRole="tblView" ToRole="tblToken" />
+  </EntityType>
+  <EntityType Name="TimeTracking">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="StartDate" Type="DateTime" Precision="0" />
+    <Property Name="StartTime" Type="DateTime" Precision="0" />
+    <Property Name="EndTime" Type="DateTime" Precision="0" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Period_Year" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Period_Month" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Period_Quater" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="IsAutomatic" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="WorkNatureID" Type="Int32" />
+    <NavigationProperty Name="WorkNature" Relationship="dbDMSModel.TimeTracking_WorkNatureTimeTracking" FromRole="TimeTracking" ToRole="WorkNature" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Role" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Designation" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Salary" Type="Single" />
+    <Property Name="CreatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="0" />
+    <Property Name="UpdatedBy" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="UpdatedDate" Type="DateTime" Precision="0" />
+    <Property Name="SSMA_TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="SheetPassword" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="WorkNature">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DisplayName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TimeTrackings" Relationship="dbDMSModel.TimeTracking_WorkNatureTimeTracking" FromRole="WorkNature" ToRole="TimeTracking" />
+  </EntityType>
+  <EntityType Name="ImportData">
+    <Key>
+      <PropertyRef Name="SSMA_TimeStamp" />
+    </Key>
+    <Property Name="ID" Type="Double" />
+    <Property Name="Reference" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Client_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Trading_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Statutes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Active_Non_active" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="New_Client" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Company_Number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Date_of_Incorporation" Type="DateTime" Precision="0" />
+    <Property Name="Accounting_Year_End" Type="DateTime" Precision="0" />
+    <Property Name="Tax_Return_Service" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Tax_Return_Due" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Post_Code" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="National_Insurance" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="UTR" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PAYE_Reference" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PAYE_A_C_Ref" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="VAT___Y" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="VAT_Registration" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="SSMA_TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="VwClientTemplate">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="SSMA_TimeStamp" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Reference" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Client_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Trading_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Post_Code" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="National_Insurance" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="UTR" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="VAT_Registration_Number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Company_Number" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PAYEE" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="PayeeAccRef" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="BusinessAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="HomeAddress" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="BusinessPhoneNo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="HomePhoneNo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FaxNo" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="MobileNo1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="MobileNo2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EmailAddress1" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="EmailAddress2" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="SSMA_TimeStamp" Type="Binary" Nullable="false" MaxLength="8" FixedLength="true" annotation:StoreGeneratedPattern="Computed" />
+  </EntityType>
+  <EntityType Name="VwCurrentDeadline">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Client_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="AccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="AnnualReturnDate" Type="DateTime" Precision="0" />
+    <Property Name="CommencmentTradeDate" Type="DateTime" Precision="0" />
+    <Property Name="CopTaxReturnDueDate" Type="DateTime" Precision="0" />
+    <Property Name="DeadlineFilingDate" Type="DateTime" Precision="0" />
+    <Property Name="AcctFilingDeadline" Type="DateTime" Precision="0" />
+    <Property Name="Reference" Type="String" MaxLength="260" FixedLength="false" Unicode="true" />
+    <Property Name="Due31_1" Type="Single" />
+    <Property Name="Due31_7" Type="Single" />
+    <Property Name="CTPayable" Type="Single" />
+    <Property Name="TaxRetFilingDate" Type="DateTime" Precision="0" />
+    <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DateSent" Type="DateTime" Precision="0" />
+    <Property Name="DateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="DateFiled" Type="DateTime" Precision="0" />
+    <Property Name="RollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CoopNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CoopDateSent" Type="DateTime" Precision="0" />
+    <Property Name="CoopDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="CoopDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="CoopRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ARNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ARDateSent" Type="DateTime" Precision="0" />
+    <Property Name="ARDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="ARDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="ARRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TRNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TRDateSent" Type="DateTime" Precision="0" />
+    <Property Name="TRDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="TRDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="TRRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="STNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="STDateSent" Type="DateTime" Precision="0" />
+    <Property Name="STDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="STDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="STRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="STAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="TRAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="CoopAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="ARAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="CopAccountingYearEndDate2nd" Type="DateTime" Precision="0" />
+    <Property Name="CopTaxReturnDueDate2nd" Type="DateTime" Precision="0" />
+    <Property Name="Fees" Type="Single" />
+    <Property Name="IsInvoiced" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="VwDocumentList">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="IsFolder" />
+      <PropertyRef Name="ParentID" />
+      <PropertyRef Name="EncryptedName" />
+      <PropertyRef Name="IsDeleted" />
+      <PropertyRef Name="RecordID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="IsFolder" Type="Boolean" Nullable="false" />
+    <Property Name="ParentID" Type="Int64" Nullable="false" />
+    <Property Name="Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="EncryptedName" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAT" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int32" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="Client_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedByName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="UpdatedByName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ItemTag" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="OrderNO" Type="Int32" />
+    <Property Name="RecordID" Type="Int32" Nullable="false" />
+    <Property Name="RecordTypeID" Type="Int32" />
+    <Property Name="ParentName" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Reference" Type="String" MaxLength="260" FixedLength="false" Unicode="true" />
+    <Property Name="YearEndDate" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="VwExcelSheet">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Date" />
+      <PropertyRef Name="VATCode" />
+    </Key>
+    <Property Name="NominalCodeID" Type="Int32" />
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Reference" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Gross" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="VATCodeID" Type="Int32" />
+    <Property Name="VAT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Net" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DocumentItemID" Type="Int64" />
+    <Property Name="Comment" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="NominalCode" Type="String" MaxLength="303" FixedLength="false" Unicode="true" />
+    <Property Name="VATCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SplitParentID" Type="Int32" />
+    <Property Name="Tick" Type="Boolean" />
+    <Property Name="NomCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NomCodeDesc" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="VwHistoryDeadlineTracking">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="Status" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Client_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="AccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="AnnualReturnDate" Type="DateTime" Precision="0" />
+    <Property Name="CommencmentTradeDate" Type="DateTime" Precision="0" />
+    <Property Name="CopTaxReturnDueDate" Type="DateTime" Precision="0" />
+    <Property Name="DeadlineFilingDate" Type="DateTime" Precision="0" />
+    <Property Name="AcctFilingDeadline" Type="DateTime" Precision="0" />
+    <Property Name="Reference" Type="String" MaxLength="260" FixedLength="false" Unicode="true" />
+    <Property Name="Due31_1" Type="Single" />
+    <Property Name="Due31_7" Type="Single" />
+    <Property Name="CTPayable" Type="Single" />
+    <Property Name="TaxRetFilingDate" Type="DateTime" Precision="0" />
+    <Property Name="Notes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="DateSent" Type="DateTime" Precision="0" />
+    <Property Name="DateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="DateFiled" Type="DateTime" Precision="0" />
+    <Property Name="RollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CoopNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="CoopDateSent" Type="DateTime" Precision="0" />
+    <Property Name="CoopDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="CoopDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="CoopRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ARNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ARDateSent" Type="DateTime" Precision="0" />
+    <Property Name="ARDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="ARDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="ARRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TRNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="TRDateSent" Type="DateTime" Precision="0" />
+    <Property Name="TRDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="TRDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="TRRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="STNotes" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="STDateSent" Type="DateTime" Precision="0" />
+    <Property Name="STDateRecBack" Type="DateTime" Precision="0" />
+    <Property Name="STDateFiled" Type="DateTime" Precision="0" />
+    <Property Name="STRollOverStatus" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="STAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="TRAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="CoopAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="ARAccountingYearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="CopAccountingYearEndDate2nd" Type="DateTime" Precision="0" />
+    <Property Name="CopTaxReturnDueDate2nd" Type="DateTime" Precision="0" />
+    <Property Name="Fees" Type="Single" />
+    <Property Name="IsInvoiced" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="VwItemInfo">
+    <Key>
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="EncryptedName" />
+      <PropertyRef Name="YearEndName" />
+    </Key>
+    <Property Name="Client_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="OpeningBal" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="EncryptedName" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Period" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="YearEndFolderID" Type="Int64" />
+    <Property Name="YearEndName" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="YearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="DocumentItemID" Type="Int64" />
+    <Property Name="RecordTypeID" Type="Int32" />
+    <Property Name="ItemTag" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="AnalysisCodeID" Type="Int32" />
+    <Property Name="FileNomCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="VwOutlookEmail">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="EncryptedName" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="SenderEmailAddress" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Subject" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Body" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="BCC" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="CC" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="CreationTime" Type="DateTime" Precision="3" />
+    <Property Name="EntryID" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="HTMLBody" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="ReceivedTime" Type="DateTime" Precision="3" />
+    <Property Name="To" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="ExtractedMachine" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ExtractedProfile" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedAt" Type="DateTime" Precision="3" />
+    <Property Name="ToAddress" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="OutlookFolderPath" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="IsError" Type="Boolean" />
+    <Property Name="RecordTypeID" Type="Int32" />
+    <Property Name="Notes" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="EncryptedName" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="VwSupplier">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NominalCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="NominalCodeID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="VwTrackingSystem">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="HoursWorked" />
+      <PropertyRef Name="Cost" />
+      <PropertyRef Name="Period" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="StartTime" Type="DateTime" Precision="0" />
+    <Property Name="EndTime" Type="DateTime" Precision="0" />
+    <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Period_Year" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Period_Month" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Period_Quater" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="IsAutomatic" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="WorkNatureName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="ClientName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="Reference" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="HoursWorked" Type="Decimal" Nullable="false" Precision="1" Scale="1" />
+    <Property Name="ChargeOutRate" Type="Single" />
+    <Property Name="Cost" Type="Decimal" Nullable="false" Precision="1" Scale="1" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="ClientID" Type="Int32" />
+    <Property Name="WorkNatureID" Type="Int32" />
+    <Property Name="Period" Type="String" Nullable="false" MaxLength="1" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_tblAccounts_Client">
+    <End Type="dbDMSModel.Client" Role="Client" Multiplicity="1" />
+    <End Type="dbDMSModel.tblAccount" Role="tblAccount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tblAccount">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblGroupClient_Client">
+    <End Type="dbDMSModel.Client" Role="Client" Multiplicity="1" />
+    <End Type="dbDMSModel.tblGroupClient" Role="tblGroupClient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tblGroupClient">
+        <PropertyRef Name="ClientID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblDocumentTemplate_tblView">
+    <End Type="dbDMSModel.tblView" Role="tblView" Multiplicity="0..1" />
+    <End Type="dbDMSModel.tblDocumentTemplate" Role="tblDocumentTemplate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblView">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tblDocumentTemplate">
+        <PropertyRef Name="ViewID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblEmailTemplate_tblView">
+    <End Type="dbDMSModel.tblView" Role="tblView" Multiplicity="0..1" />
+    <End Type="dbDMSModel.tblEmailTemplate" Role="tblEmailTemplate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblView">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tblEmailTemplate">
+        <PropertyRef Name="ViewID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblGroupClient_tblGroups">
+    <End Type="dbDMSModel.tblGroup" Role="tblGroup" Multiplicity="1" />
+    <End Type="dbDMSModel.tblGroupClient" Role="tblGroupClient" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblGroup">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tblGroupClient">
+        <PropertyRef Name="GroupID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblTask_tblStatus">
+    <End Type="dbDMSModel.tblStatu" Role="tblStatu" Multiplicity="0..1" />
+    <End Type="dbDMSModel.tblTask" Role="tblTask" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblStatu">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tblTask">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tblToken_tblView">
+    <End Type="dbDMSModel.tblView" Role="tblView" Multiplicity="1" />
+    <End Type="dbDMSModel.tblToken" Role="tblToken" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblView">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="tblToken">
+        <PropertyRef Name="ViewID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="TimeTracking_WorkNatureTimeTracking">
+    <End Type="dbDMSModel.WorkNature" Role="WorkNature" Multiplicity="0..1" />
+    <End Type="dbDMSModel.TimeTracking" Role="TimeTracking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkNature">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TimeTracking">
+        <PropertyRef Name="WorkNatureID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="VwChartAcct">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Code" />
+      <PropertyRef Name="Type" />
+      <PropertyRef Name="YearEndCode" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Code" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="AccountGroupID" Type="Int32" />
+    <Property Name="YearEndCodeID" Type="Int32" />
+    <Property Name="YearEndFolderID" Type="Int64" />
+    <Property Name="YearEndCode" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="VwExcelSheetClient">
+    <Key>
+      <PropertyRef Name="RecordID" />
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="Date" />
+    </Key>
+    <Property Name="Client_Name" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="RecordID" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Reference" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Gross" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="VATCode" Type="Int32" />
+    <Property Name="VAT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="Net" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="NominalCode" Type="Int32" />
+    <Property Name="DocumentItemID" Type="Int64" />
+    <Property Name="Comment" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="SplitParentID" Type="Int32" />
+    <Property Name="Tick" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="tblRecycleBin">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="Name" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="IsFolder" Type="Boolean" Nullable="false" />
+    <Property Name="ParentID" Type="Int64" Nullable="false" />
+    <Property Name="Path" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="EncryptedName" Type="String" Nullable="false" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="Notes" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="RecordTypeID" Type="Int32" />
+    <Property Name="RecordID" Type="Int32" Nullable="false" />
+    <Property Name="OrderNO" Type="Int32" />
+    <Property Name="CreatedAT" Type="DateTime" Precision="3" />
+    <Property Name="CreatedBy" Type="Int32" />
+    <Property Name="UpdatedAt" Type="DateTime" Precision="3" />
+    <Property Name="UpdatedBy" Type="Int32" />
+    <Property Name="IsDeleted" Type="Boolean" Nullable="false" />
+    <Property Name="ItemTag" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="IsVirtual" Type="Boolean" />
+    <Property Name="YearEndDate" Type="DateTime" Precision="0" />
+    <Property Name="MovedDate" Type="DateTime" Precision="3" />
+  </EntityType>
+</Schema>

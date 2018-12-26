@@ -1,0 +1,63 @@
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DAL\bin\Debug\DAL.dll.config
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DAL\bin\Debug\DAL.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DAL\bin\Debug\DAL.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DAL\obj\Debug\DAL.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DAL\obj\Debug\DAL.pdb
+D:\Projects\Ivan\DMS source code\DAL\bin\Debug\DAL.dll.config
+D:\Projects\Ivan\DMS source code\DAL\bin\Debug\DAL.dll
+D:\Projects\Ivan\DMS source code\DAL\bin\Debug\DAL.pdb
+D:\Projects\Ivan\DMS source code\DAL\bin\Debug\Utilities.dll
+D:\Projects\Ivan\DMS source code\DAL\bin\Debug\Utilities.pdb
+D:\Projects\Ivan\DMS source code\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Projects\Ivan\DMS source code\DAL\obj\Debug\DAL.dll
+D:\Projects\Ivan\DMS source code\DAL\obj\Debug\DAL.pdb
+D:\DMS Executable\DAL.dll.config
+D:\DMS Executable\DAL.dll
+D:\DMS Executable\DAL.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DAL\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DAL\obj\Debug\DAL.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DAL\obj\Debug\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DAL\obj\Debug\DAL.dll
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\DAL\obj\Debug\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\DAL\obj\Debug\DAL.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\DAL\obj\Debug\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\DAL\obj\Debug\DAL.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\DAL\obj\Debug\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\DAL\obj\Debug\DAL.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\DAL\obj\Debug\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Source Code\DMS Executable\DAL.dll.config
+E:\Source Code\DMS Executable\DAL.dll
+E:\Source Code\DMS Executable\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code - backup before change\DAL\obj\Debug\DAL.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code - backup before change\DAL\obj\Debug\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code - backup before change\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\DMS Executable\DAL.dll.config
+E:\Source Code\Projects\DMS Executable\DAL.dll
+E:\Source Code\Projects\DMS Executable\DAL.pdb
+E:\Source Code\Projects\Ledger Executable\DAL.dll.config
+E:\Source Code\Projects\Ledger Executable\DAL.dll
+E:\Source Code\Projects\Ledger Executable\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\DAL\obj\Debug\DAL.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\DAL\obj\Debug\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\DAL\obj\Debug\DAL.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\DAL\obj\Debug\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Source Code\Ledger Executable\DAL.dll.config
+E:\Source Code\Ledger Executable\DAL.dll
+E:\Source Code\Ledger Executable\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DAL\obj\Debug\DAL.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DAL\obj\Debug\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Ledger Executable\DAL.dll.config
+E:\Ledger Executable\DAL.dll
+E:\Ledger Executable\DAL.pdb
+E:\Code\Ledger\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Code\Ledger\DAL\obj\Debug\DAL.dll
+E:\Code\Ledger\DAL\obj\Debug\DAL.pdb

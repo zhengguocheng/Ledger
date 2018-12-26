@@ -1,0 +1,7 @@
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\bin\Debug\LedgerUpdater.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\bin\Debug\LedgerUpdater.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\obj\Debug\LedgerUpdater.Form1.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\obj\Debug\LedgerUpdater.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\obj\Debug\LedgerUpdater.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\obj\Debug\LedgerUpdater.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\obj\Debug\LedgerUpdater.pdb

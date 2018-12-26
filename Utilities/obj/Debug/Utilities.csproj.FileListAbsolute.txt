@@ -1,0 +1,74 @@
+D:\Projects\Ivan\DMS source code\Utilities\bin\Debug\Utilities.dll.config
+D:\Projects\Ivan\DMS source code\Utilities\bin\Debug\Utilities.dll
+D:\Projects\Ivan\DMS source code\Utilities\bin\Debug\Utilities.pdb
+D:\Projects\Ivan\DMS source code\Utilities\bin\Debug\DocX.dll
+D:\Projects\Ivan\DMS source code\Utilities\obj\Debug\Utilities.dll
+D:\Projects\Ivan\DMS source code\Utilities\obj\Debug\Utilities.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\bin\Debug\Utilities.dll.config
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\bin\Debug\Utilities.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\bin\Debug\Utilities.pdb
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\bin\Debug\DocX.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\obj\Debug\Utilities.dll
+D:\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\obj\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\bin\Debug\Utilities.dll.config
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\bin\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\bin\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\bin\Debug\DocX.dll
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\obj\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan Lee Projects\DMS\DMS source code\Utilities\obj\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\Utilities\bin\Debug\Utilities.dll.config
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\Utilities\bin\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\Utilities\bin\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\Utilities\bin\Debug\DocX.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\Utilities\obj\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code\Utilities\obj\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\Utilities\bin\Debug\Utilities.dll.config
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\Utilities\bin\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\Utilities\bin\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\Utilities\bin\Debug\DocX.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\Utilities\obj\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS source code - Rlz 1 Jan 15\Utilities\obj\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\Utilities\bin\Debug\Utilities.dll.config
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\Utilities\bin\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\Utilities\bin\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\Utilities\bin\Debug\DocX.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\Utilities\obj\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\DMS\DMS code\Utilities\obj\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\Utilities\bin\Debug\Utilities.dll.config
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\Utilities\bin\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\Utilities\bin\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\Utilities\bin\Debug\DocX.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\Utilities\obj\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\Utilities\obj\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code - backup before change\Utilities\bin\Debug\Utilities.dll.config
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code - backup before change\Utilities\bin\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code - backup before change\Utilities\bin\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code - backup before change\Utilities\bin\Debug\DocX.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code - backup before change\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code - backup before change\Utilities\obj\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code - backup before change\Utilities\obj\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\Utilities\bin\Debug\Utilities.dll.config
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\Utilities\bin\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\Utilities\bin\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\Utilities\bin\Debug\DocX.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\Utilities\obj\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code\Utilities\obj\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\Utilities\obj\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\Utilities\obj\Debug\Utilities.pdb
+E:\Source Code\Ledger Executable\Utilities.dll.config
+E:\Source Code\Ledger Executable\Utilities.dll
+E:\Source Code\Ledger Executable\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\Utilities\obj\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\Utilities\obj\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+E:\Ledger Executable\Utilities.dll.config
+E:\Ledger Executable\Utilities.dll
+E:\Ledger Executable\Utilities.pdb
+E:\Code\Ledger\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+E:\Code\Ledger\Utilities\obj\Debug\Utilities.dll
+E:\Code\Ledger\Utilities\obj\Debug\Utilities.pdb

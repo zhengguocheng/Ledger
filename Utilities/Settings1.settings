@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Utilities" GeneratedClassName="Settings1">
+  <Profiles />
+  <Settings>
+    <Setting Name="SendersAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">leopard447@gmail.com</Value>
+    </Setting>
+    <Setting Name="SendersPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">hW6o4A44GXGk5RKpBs8dfDtrQABafXS+HBUAVSXv6GM=</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

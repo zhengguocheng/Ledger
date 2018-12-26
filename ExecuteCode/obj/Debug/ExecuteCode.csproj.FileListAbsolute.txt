@@ -1,0 +1,62 @@
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\SqlServerTypes\x64\msvcr100.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\SqlServerTypes\x64\SqlServerSpatial110.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\SqlServerTypes\x86\msvcr100.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\SqlServerTypes\x86\SqlServerSpatial110.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Reports\RDLC\RptPaymentSummary.rdlc
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Reports\RDLC\RptThisYrClosingTrialBal.rdlc
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Reports\RDLC\RptReconcile.rdlc
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Reports\RDLC\RptJournals.rdlc
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Reports\RDLC\RptMultipleEntJournal.rdlc
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Reports\RDLC\RptNextYrOpnBal - Copy.rdlc
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Reports\RDLC\RptPLReserve.rdlc
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Reports\RDLC\RptNextYrOpnBal.rdlc
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Reports\Controls\UcRptNextYrOpnBal.resx
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Reports\Controls\UcRptNextYrOpnBal.cs
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Reports\Controls\UcRptNextYrOpnBal.Designer.cs
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\ExecuteCode.exe.config
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\ExecuteCode.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\ExecuteCode.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\DAL.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Ledger.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Utilities.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\EPPlus.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\DocX.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\unvell.ReoGrid.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\MakarovDev.ExpandCollapsePanel.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\unvell.ReoScript.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Antlr3.Runtime.dll
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\DAL.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Utilities.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\Ledger.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\unvell.ReoGrid.xml
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\bin\Debug\MakarovDev.ExpandCollapsePanel.pdb
+E:\Source Code\Ledger Executable\SqlServerTypes\x64\msvcr100.dll
+E:\Source Code\Ledger Executable\SqlServerTypes\x64\SqlServerSpatial110.dll
+E:\Source Code\Ledger Executable\SqlServerTypes\x86\msvcr100.dll
+E:\Source Code\Ledger Executable\SqlServerTypes\x86\SqlServerSpatial110.dll
+E:\Source Code\Ledger Executable\ExecuteCode.exe.config
+E:\Source Code\Ledger Executable\ExecuteCode.exe
+E:\Source Code\Ledger Executable\ExecuteCode.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\obj\Debug\ExecuteCode.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\obj\Debug\ExecuteCode.Form1.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\obj\Debug\ExecuteCode.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\obj\Debug\ExecuteCode.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\obj\Debug\ExecuteCode.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger code New Reogrid\ExecuteCode\obj\Debug\ExecuteCode.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\ExecuteCode\obj\Debug\ExecuteCode.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\ExecuteCode\obj\Debug\ExecuteCode.Form1.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\ExecuteCode\obj\Debug\ExecuteCode.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\ExecuteCode\obj\Debug\ExecuteCode.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\ExecuteCode\obj\Debug\ExecuteCode.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\ExecuteCode\obj\Debug\ExecuteCode.pdb
+E:\Source Code\Ledger Executable\Reports\RDLC\RptPaymentSummary.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptThisYrClosingTrialBal.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptReconcile.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptJournals.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptMultipleEntJournal.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptNextYrOpnBal - Copy.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptPLReserve.rdlc
+E:\Source Code\Ledger Executable\Reports\RDLC\RptNextYrOpnBal.rdlc
+E:\Source Code\Ledger Executable\Reports\Controls\UcRptNextYrOpnBal.resx
+E:\Source Code\Ledger Executable\Reports\Controls\UcRptNextYrOpnBal.cs
+E:\Source Code\Ledger Executable\Reports\Controls\UcRptNextYrOpnBal.Designer.cs

@@ -1,0 +1,9 @@
+E:\Code\Ledger\LedgerUpdater\bin\Release\LedgerUpdater.exe
+E:\Code\Ledger\LedgerUpdater\bin\Release\LedgerUpdater.pdb
+E:\Code\Ledger\LedgerUpdater\obj\Release\LedgerUpdater.Form1.resources
+E:\Code\Ledger\LedgerUpdater\obj\Release\LedgerUpdater.Properties.Resources.resources
+E:\Code\Ledger\LedgerUpdater\obj\Release\LedgerUpdater.csproj.GenerateResource.Cache
+E:\Code\Ledger\LedgerUpdater\obj\Release\LedgerUpdater.exe
+E:\Code\Ledger\LedgerUpdater\obj\Release\LedgerUpdater.pdb
+E:\Code\Ledger\LedgerUpdater\obj\Release\LedgerUpdater.csprojAssemblyReference.cache
+E:\Code\Ledger\LedgerUpdater\obj\Release\LedgerUpdater.csproj.CoreCompileInputs.cache

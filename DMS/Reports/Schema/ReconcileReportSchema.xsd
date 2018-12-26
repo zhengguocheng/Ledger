@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="ReconcileReportDs" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="ReconcileReportDs" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="Date" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Description" type="xs:string" minOccurs="0" />
+              <xs:element name="Reference" type="xs:string" minOccurs="0" />
+              <xs:element name="Gross" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VATCode" type="xs:int" minOccurs="0" />
+              <xs:element name="VAT" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Net" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NominalCode" type="xs:int" minOccurs="0" />
+              <xs:element name="DocumentItemID" type="xs:long" minOccurs="0" />
+              <xs:element name="Comment" type="xs:string" minOccurs="0" />
+              <xs:element name="SplitParentID" type="xs:int" minOccurs="0" />
+              <xs:element name="Tick" type="xs:boolean" minOccurs="0" />
+              <xs:element name="RecordID" type="xs:int" minOccurs="0" />
+              <xs:element name="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="IsDeleted" type="xs:boolean" minOccurs="0" />
+              <xs:element name="PaymentNomCodeID" type="xs:int" minOccurs="0" />
+              <xs:element name="NomCodeDesc" type="xs:string" minOccurs="0" />
+              <xs:element name="PaymentNomCodeDesc" type="xs:string" minOccurs="0" />
+              <xs:element name="YearEndFolderID" type="xs:long" minOccurs="0" />
+              <xs:element name="Period" type="xs:string" minOccurs="0" />
+              <xs:element name="Payments" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Receipts" type="xs:decimal" minOccurs="0" />
+              <xs:element name="RecordType" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Ledgers.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EmailKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">gfHWCrd9irdeFdRJxxsQny8iuh4Wpd55MtcMviC01tk=</Value>
+    </Setting>
+    <Setting Name="DMSEmail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">documentmanagementsystem@hotmail.com</Value>
+    </Setting>
+    <Setting Name="SendEmails" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="IsDeployed" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LastAccessedFolder" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LogDirPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\Logs</Value>
+    </Setting>
+    <Setting Name="PDFAnalyzerExePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\PDF Analyzer\PDF Analyzer.exe</Value>
+    </Setting>
+    <Setting Name="MatchedFolderPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">.\Matched PDF</Value>
+    </Setting>
+    <Setting Name="RpstFolderPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">\\server01\repository$</Value>
+    </Setting>
+    <Setting Name="ClientListHiddenColumns" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">National_Insurance,UTR</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

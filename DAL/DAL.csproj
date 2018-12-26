@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CFA5F12B-EBB4-4B92-A9FD-48B2AC3F0F9C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\Ledger Executable\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLayer\EmailService.cs" />
+    <Compile Include="BusinessLayer\SMTPSettings.cs" />
+    <Compile Include="Controllers\tblAccountGroupController.cs" />
+    <Compile Include="Controllers\tblMultipleEntJournal.cs" />
+    <Compile Include="Controllers\tblJournalsController.cs" />
+    <Compile Include="Controllers\tblSDBSettingsController.cs" />
+    <Compile Include="Controllers\tblClosingTrialBalanceController.cs" />
+    <Compile Include="Controllers\tblTrialBalanceController.cs" />
+    <Compile Include="Controllers\tblSupplierController.cs" />
+    <Compile Include="Controllers\tblBankReconcileController.cs" />
+    <Compile Include="Controllers\tblDescriptionController.cs" />
+    <Compile Include="Controllers\tblLedgerController.cs" />
+    <Compile Include="Controllers\tblItemInfoController.cs" />
+    <Compile Include="Controllers\tblExcelSheetController.cs" />
+    <Compile Include="Controllers\tblPCBController.cs" />
+    <Compile Include="Controllers\tblBankPaymentController.cs" />
+    <Compile Include="Controllers\tblBankingController.cs" />
+    <Compile Include="Controllers\tblPettyCachController.cs" />
+    <Compile Include="Controllers\tblSDBController.cs" />
+    <Compile Include="Controllers\DMSQueries.cs" />
+    <Compile Include="Controllers\tblGenericListTypeController.cs" />
+    <Compile Include="Controllers\tblGenericListController.cs" />
+    <Compile Include="Controllers\tblAnalysisCodeController.cs" />
+    <Compile Include="Controllers\tblAccountController.cs" />
+    <Compile Include="Controllers\OutlookEmailContrller.cs" />
+    <Compile Include="Controllers\StatusController.cs" />
+    <Compile Include="Controllers\DocumentTemplateController.cs" />
+    <Compile Include="Controllers\EmailTemplateController.cs" />
+    <Compile Include="Controllers\GroupClientContrroller.cs" />
+    <Compile Include="Controllers\GroupController.cs" />
+    <Compile Include="Controllers\SettingsController.cs" />
+    <Compile Include="Controllers\TagsController.cs" />
+    <Compile Include="Controllers\TaskController.cs" />
+    <Compile Include="Controllers\tblChartAccountController.cs" />
+    <Compile Include="Controllers\tblEmailController.cs" />
+    <Compile Include="Controllers\tblVARateController.cs" />
+    <Compile Include="Controllers\TemplateTypeController.cs" />
+    <Compile Include="Controllers\TokenController.cs" />
+    <Compile Include="Controllers\RecycleBinController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Controllers\VwOutlookEmailController.cs" />
+    <Compile Include="CustomClasses\AnalysisReportController.cs" />
+    <Compile Include="CustomClasses\AppConstants.cs" />
+    <Compile Include="CustomClasses\AppConverter.cs" />
+    <Compile Include="CustomClasses\AppClone.cs" />
+    <Compile Include="CustomClasses\ContextCreater.cs" />
+    <Compile Include="CustomClasses\Data Helper\DataTableMapper.cs" />
+    <Compile Include="CustomClasses\Data Helper\DBHelper.cs" />
+    <Compile Include="CustomClasses\DateHelper.cs" />
+    <Compile Include="CustomClasses\DocMerge.cs" />
+    <Compile Include="CustomClasses\ExtentionMethods.cs" />
+    <Compile Include="CustomClasses\FileHelper.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\ClientController.cs" />
+    <Compile Include="Controllers\DocumentController.cs" />
+    <Compile Include="Controllers\DocumentItemController.cs" />
+    <Compile Include="Controllers\VwDocumentList_Controller.cs" />
+    <Compile Include="CustomClasses\GlobalParams.cs" />
+    <Compile Include="CustomClasses\IDocUpdateSupport.cs" />
+    <Compile Include="CustomClasses\LedgerReport.cs" />
+    <Compile Include="CustomClasses\MailMerge.cs" />
+    <Compile Include="CustomClasses\NextYrOpeningBalRpt.cs" />
+    <Compile Include="CustomClasses\ReportsHelper.cs" />
+    <Compile Include="CustomClasses\SpecialFiles.cs" />
+    <Compile Include="CustomClasses\Tags.cs" />
+    <Compile Include="CustomClasses\VATReport.cs" />
+    <Compile Include="CustomClasses\YearEndCopyData.cs" />
+    <Compile Include="dbDMSDataSet.cs">
+      <DependentUpon>dbDMSDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dbDMSDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbDMSDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Partial Classes\iEntityBase.cs" />
+    <Compile Include="Partial Classes\PartialEntities.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BusinessLayer\Reminder.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\LedgerRepository.cs" />
+    <Compile Include="Repository\DefaultFolders.cs" />
+    <Compile Include="Repository\EmailRepository.cs" />
+    <Compile Include="Repository\Repository.cs" />
+    <Compile Include="Repository\RepositoryExport.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbDMSDataSet.xsc">
+      <DependentUpon>dbDMSDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbDMSDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbDMSDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbDMSDataSet.xss">
+      <DependentUpon>dbDMSDataSet.xsd</DependentUpon>
+    </None>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model11.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\dbDMSEntities.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{1AF8EB7D-E13C-47CD-8BCD-7145769B5280}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

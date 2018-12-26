@@ -1,0 +1,11 @@
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\bin\Debug\AutoUpdater.exe.config
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\bin\Debug\AutoUpdater.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\bin\Debug\AutoUpdater.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\obj\Debug\DMS.UIForms.FrmAutoUpdate.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\obj\Debug\AutoUpdater.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\obj\Debug\AutoUpdater.csproj.GenerateResource.Cache
+E:\Source Code\Ledger Executable\Ledger Auto Updater.exe.config
+E:\Source Code\Ledger Executable\Ledger Auto Updater.exe
+E:\Source Code\Ledger Executable\Ledger Auto Updater.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\obj\Debug\Ledger Auto Updater.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\AutoUpdater\obj\Debug\Ledger Auto Updater.pdb

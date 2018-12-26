@@ -1,0 +1,17 @@
+E:\Code\Ledger\AutoUpdater\bin\Release\AutoUpdater.exe.config
+E:\Code\Ledger\AutoUpdater\bin\Release\AutoUpdater.exe
+E:\Code\Ledger\AutoUpdater\bin\Release\AutoUpdater.pdb
+E:\Code\Ledger\AutoUpdater\bin\Release\Telerik.WinControls.dll
+E:\Code\Ledger\AutoUpdater\bin\Release\Telerik.WinControls.Themes.Desert.dll
+E:\Code\Ledger\AutoUpdater\bin\Release\Telerik.WinControls.UI.dll
+E:\Code\Ledger\AutoUpdater\bin\Release\TelerikCommon.dll
+E:\Code\Ledger\AutoUpdater\bin\Release\Telerik.WinControls.xml
+E:\Code\Ledger\AutoUpdater\bin\Release\Telerik.WinControls.UI.xml
+E:\Code\Ledger\AutoUpdater\obj\Release\DMS.UIForms.FrmAutoUpdate.resources
+E:\Code\Ledger\AutoUpdater\obj\Release\AutoUpdater.Properties.Resources.resources
+E:\Code\Ledger\AutoUpdater\obj\Release\AutoUpdater.csproj.GenerateResource.Cache
+E:\Code\Ledger\AutoUpdater\obj\Release\AutoUpdater.exe
+E:\Code\Ledger\AutoUpdater\obj\Release\AutoUpdater.pdb
+E:\Code\Ledger\AutoUpdater\obj\Release\AutoUpdater.csprojAssemblyReference.cache
+E:\Code\Ledger\AutoUpdater\obj\Release\AutoUpdater.csproj.CoreCompileInputs.cache
+E:\Code\Ledger\AutoUpdater\obj\Release\AutoUpdater.csproj.CopyComplete

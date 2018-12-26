@@ -1,0 +1,1320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B4DFDA3-1CF4-45A3-8472-7785657727DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DMS</RootNamespace>
+    <AssemblyName>Ledger</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\Ledger Executable\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>dollar.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.4.1.9004, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\ReoGrid\ReoGrid-0.9.3.0-Beta-Build\ReoGrid-0.9.3.0-Beta-Extension\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="FastColoredTextBox, Version=2.9.1.0, Culture=neutral, PublicKeyToken=06d1f484ebcd09a9, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dlls\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+      <Private>True</Private>
+      <HintPath>..\..\dlls\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+      <Private>True</Private>
+      <HintPath>..\..\dlls\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.SqlServer.Types.11.0.2\lib\net20\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\..\dlls\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\dlls\Telerik.WinControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.GridView, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+      <HintPath>..\..\dlls\Telerik.WinControls.GridView.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.RadDock, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+      <HintPath>..\..\dlls\Telerik.WinControls.RadDock.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Breeze">
+      <HintPath>..\..\dlls\Telerik.WinControls.Themes.Breeze.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.BreezeExtended">
+      <HintPath>..\..\dlls\Telerik.WinControls.Themes.BreezeExtended.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Desert, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e">
+      <Private>True</Private>
+      <HintPath>..\..\dlls\Telerik.WinControls.Themes.Desert.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2007Black">
+      <HintPath>..\..\dlls\Telerik.WinControls.Themes.Office2007Black.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Office2007Silver">
+      <HintPath>..\..\dlls\Telerik.WinControls.Themes.Office2007Silver.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.Themes.Vista">
+      <HintPath>..\..\dlls\Telerik.WinControls.Themes.Vista.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.WinControls.UI, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\dlls\Telerik.WinControls.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="TelerikCommon, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\dlls\TelerikCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="TelerikData, Version=2013.3.1016.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dlls\TelerikData.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="unvell.ReoGrid, Version=0.8.9.1, Culture=neutral, PublicKeyToken=0a947d9ccc179105, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dlls\unvell.ReoGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="unvell.ReoScript, Version=1.5.0.0, Culture=neutral, PublicKeyToken=85339a558a3a0c58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dlls\unvell.ReoScript.dll</HintPath>
+    </Reference>
+    <Reference Include="unvell.ReoScript.EditorLib, Version=1.5.0.0, Culture=neutral, PublicKeyToken=85339a558a3a0c58, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\dlls\unvell.ReoScript.EditorLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomClasses\AppConverter.cs" />
+    <Compile Include="CustomClasses\AuthenticationService.cs" />
+    <Compile Include="CustomClasses\CustomMessages.cs" />
+    <Compile Include="CustomClasses\DataSetSchema.cs" />
+    <Compile Include="CustomClasses\DisplayManager.cs" />
+    <Compile Include="CustomClasses\DropDownHelper.cs" />
+    <Compile Include="CustomClasses\DropDownItem.cs" />
+    <Compile Include="CustomClasses\LedgerGrid\CellFormats.cs" />
+    <Compile Include="CustomClasses\LedgerGrid\ExcelBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomClasses\LedgerGrid\BankReconcileGrid .cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomClasses\LedgerGrid\MultipleEntJournalsGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomClasses\LedgerGrid\ReoGridExtention.cs" />
+    <Compile Include="CustomClasses\LedgerGrid\SDBGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomClasses\LedgerGrid\JournalsGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomClasses\LedgerGrid\ClosingTrialGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomClasses\LedgerGrid\TrialGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomClasses\LedgerGrid\ExcelGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomClasses\FileHelper.cs" />
+    <Compile Include="CustomClasses\LedgerGrid\GridException.cs" />
+    <Compile Include="CustomClasses\LedgerGrid\LedgerGridColumn.cs" />
+    <Compile Include="CustomClasses\LedgerGrid\LedgerGridData.cs" />
+    <Compile Include="CustomClasses\PagingUtils.cs" />
+    <Compile Include="CustomClasses\PDF Matching\ImportMatchedPDF.cs" />
+    <Compile Include="CustomClasses\PDF Matching\PDFContent.cs" />
+    <Compile Include="CustomClasses\PDF Matching\ProcessMatchedPDF.cs" />
+    <Compile Include="CustomClasses\TelerikGridBehaviour.cs" />
+    <Compile Include="CustomClasses\TempraryDocuments.cs" />
+    <Compile Include="CustomClasses\TransparentPicBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomClasses\UIExtentions.cs" />
+    <Compile Include="CustomClasses\Validator.cs" />
+    <Compile Include="CustomClasses\WordViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RadForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RadForm1.Designer.cs">
+      <DependentUpon>RadForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Controls\UcRptNextYrOpnBal.cs">
+      <SubType>UserControl</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\Controls\UcRptNextYrOpnBal.Designer.cs">
+      <DependentUpon>UcRptNextYrOpnBal.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\Controls\UcRptReconcile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reports\Controls\UcRptReconcile.Designer.cs">
+      <DependentUpon>UcRptReconcile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Controls\UcRptJournals.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reports\Controls\UcRptJournals.Designer.cs">
+      <DependentUpon>UcRptJournals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Controls\UcRptThisYrClosingTrialBal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reports\Controls\UcRptThisYrClosingTrialBal.Designer.cs">
+      <DependentUpon>UcRptThisYrClosingTrialBal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Controls\UcRptPaymentSummary.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reports\Controls\UcRptPaymentSummary.Designer.cs">
+      <DependentUpon>UcRptPaymentSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Schema\JournalsReportSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>JournalsReportSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Schema\MultipleEntJournalsReportSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MultipleEntJournalsReportSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Schema\NewThisYrClosingTBSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewThisYrClosingTBSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Schema\NextYrOpnBalReportSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NextYrOpnBalReportSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Schema\PaymentReportSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaymentReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\Schema\PaymentSheetSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaymentSheetSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Schema\PaymentSheetSummarySchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaymentSheetSummarySchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Schema\PLReserveReportSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PLReserveReportSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Schema\ReceiptsReportSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiptsReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\Schema\ReconcileReportSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReconcileReportSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Schema\SummaryReportSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SummaryReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\Schema\ThisYrClosingTrialBalSchema.cs">
+      <DependentUpon>ThisYrClosingTrialBalSchema.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Schema\ThisYrClosingTrialBalSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ThisYrClosingTrialBalSchema.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Schema\VATReportSchema.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>VATReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\UcRDLC_Viewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reports\UcRDLC_Viewer.Designer.cs">
+      <DependentUpon>UcRDLC_Viewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="UIForms\LedgerMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\LedgerMainForm.Designer.cs">
+      <DependentUpon>LedgerMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Bank Reconcile\UcBankReconcile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Bank Reconcile\UcBankReconcile.Designer.cs">
+      <DependentUpon>UcBankReconcile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcTaggedDocumentList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcTaggedDocumentList.Designer.cs">
+      <DependentUpon>UcTaggedDocumentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcClient.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcClient.Designer.cs">
+      <DependentUpon>UcClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcStarDocumentList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcStarDocumentList.Designer.cs">
+      <DependentUpon>UcStarDocumentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ClientGroup\UcGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ClientGroup\UcGroup.Designer.cs">
+      <DependentUpon>UcGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ClientGroup\UcClientGroupList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ClientGroup\UcClientGroupList.Designer.cs">
+      <DependentUpon>UcClientGroupList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ClientGroup\UcGroupList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ClientGroup\UcGroupList.Designer.cs">
+      <DependentUpon>UcGroupList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Description\UcDescription.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Description\UcDescription.Designer.cs">
+      <DependentUpon>UcDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Description\UcDescriptionList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Description\UcDescriptionList.Designer.cs">
+      <DependentUpon>UcDescriptionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Description\UcFindReplaceDesc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Description\UcFindReplaceDesc.Designer.cs">
+      <DependentUpon>UcFindReplaceDesc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\DocBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\DocBrowser.Designer.cs">
+      <DependentUpon>DocBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Journals\UcMultipleEntJournal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Journals\UcMultipleEntJournal.Designer.cs">
+      <DependentUpon>UcMultipleEntJournal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Journals\UcJournal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Journals\UcJournal.Designer.cs">
+      <DependentUpon>UcJournal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\LedgerGridBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\LedgerSheetBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AccountChart\UcAccountChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AccountChart\UcAccountChart.Designer.cs">
+      <DependentUpon>UcAccountChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AccountChart\UcAccountChartList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AccountChart\UcAccountChartList.Designer.cs">
+      <DependentUpon>UcAccountChartList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AccountGroup\UcAccountGroup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AccountGroup\UcAccountGroup.Designer.cs">
+      <DependentUpon>UcAccountGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AccountGroup\UcAccountGroupList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AccountGroup\UcAccountGroupList.Designer.cs">
+      <DependentUpon>UcAccountGroupList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\Accounts\UcAccount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\Accounts\UcAccount.Designer.cs">
+      <DependentUpon>UcAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AnalysisCode\UcAnalysisCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AnalysisCode\UcAnalysisCode.Designer.cs">
+      <DependentUpon>UcAnalysisCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AnalysisCode\UcAnalysisCodeList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\AnalysisCode\UcAnalysisCodeList.Designer.cs">
+      <DependentUpon>UcAnalysisCodeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\Banking\UcBanking.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\Banking\UcBanking.Designer.cs">
+      <DependentUpon>UcBanking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\BankPayment\UcBankPayment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\BankPayment\UcBankPayment.Designer.cs">
+      <DependentUpon>UcBankPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\LedgerReport\UcAnalysisReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\LedgerReport\UcAnalysisReport.Designer.cs">
+      <DependentUpon>UcAnalysisReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\LedgerReport\UcVATReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\LedgerReport\UcVATReport.Designer.cs">
+      <DependentUpon>UcVATReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\LedgerReport\UcLedgerReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\LedgerReport\UcLedgerReport.Designer.cs">
+      <DependentUpon>UcLedgerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\PCB\UcPCB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\PCB\UcPCB.Designer.cs">
+      <DependentUpon>UcPCB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\PettyCash\UcPettyCash.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\PettyCash\UcPettyCash.Designer.cs">
+      <DependentUpon>UcPettyCash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\CreateFolder\UcCreateYearEndFolder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\CreateFolder\UcCreateYearEndFolder.Designer.cs">
+      <DependentUpon>UcCreateYearEndFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\GenericList\UcGenericList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\GenericList\UcGenericList.Designer.cs">
+      <DependentUpon>UcGenericList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\GenericList\UcGenericItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\GenericList\UcGenericItem.Designer.cs">
+      <DependentUpon>UcGenericItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\Supplier\UcSupplierList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\Supplier\UcSupplierList.Designer.cs">
+      <DependentUpon>UcSupplierList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\Supplier\UcSupplier.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\Supplier\UcSupplier.Designer.cs">
+      <DependentUpon>UcSupplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\UcLedger.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\UcLedger.Designer.cs">
+      <DependentUpon>UcLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\VATRate\UcVATRate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\VATRate\UcVATRate.Designer.cs">
+      <DependentUpon>UcVATRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\VATRate\UcVATRateList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Ledgers\VATRate\UcVATRateList.Designer.cs">
+      <DependentUpon>UcVATRateList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcFolderSelecttion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcFolderSelecttion.Designer.cs">
+      <DependentUpon>UcFolderSelecttion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcNavigation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcNavigation.Designer.cs">
+      <DependentUpon>UcNavigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Payment\UcTestExcel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Payment\UcTestExcel.Designer.cs">
+      <DependentUpon>UcTestExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Payment\UcExcelSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Payment\UcExcelSheet.Designer.cs">
+      <DependentUpon>UcExcelSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcDateRange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcDateRange.Designer.cs">
+      <DependentUpon>UcDateRange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcSupplierPopup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcSupplierPopup.Designer.cs">
+      <DependentUpon>UcSupplierPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcInputText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcInputText.Designer.cs">
+      <DependentUpon>UcInputText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcUnLockSheet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcUnLockSheet.Designer.cs">
+      <DependentUpon>UcUnLockSheet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcGridSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcGridSearch.Designer.cs">
+      <DependentUpon>UcGridSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcDescriptionPopup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcDescriptionPopup.Designer.cs">
+      <DependentUpon>UcDescriptionPopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcVATCodePopup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcVATCodePopup.Designer.cs">
+      <DependentUpon>UcVATCodePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcNominalCodePopup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcNominalCodePopup.Designer.cs">
+      <DependentUpon>UcNominalCodePopup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\RecycleBin\UcRecycleBin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\RecycleBin\UcRecycleBin.Designer.cs">
+      <DependentUpon>UcRecycleBin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SDB\UcSDB.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\SDB\UcSDB.Designer.cs">
+      <DependentUpon>UcSDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\StyleButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\StyleButton.Designer.cs">
+      <DependentUpon>StyleButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcAddDocument.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcAddDocument.Designer.cs">
+      <DependentUpon>UcAddDocument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcEdit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcEdit.Designer.cs">
+      <DependentUpon>UcEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcCalender.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Popups\UcCalender.Designer.cs">
+      <DependentUpon>UcCalender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TrialBalance\UcClosingTrialBalance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TrialBalance\UcClosingTrialBalance.Designer.cs">
+      <DependentUpon>UcClosingTrialBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TrialBalance\UcTrialBalance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TrialBalance\UcTrialBalance.Designer.cs">
+      <DependentUpon>UcTrialBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UcLogin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UcLogin.designer.cs">
+      <DependentUpon>UcLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcSaveFolder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcSaveFolder.Designer.cs">
+      <DependentUpon>UcSaveFolder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UCPaging.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\UCPaging.designer.cs">
+      <DependentUpon>UCPaging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\UserControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DMSSettings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>DMSSettings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Logging\Logger.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UIForms\FrmDialougeBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIForms\FrmDialougeBox.Designer.cs">
+      <DependentUpon>FrmDialougeBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcClientDocuments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcClientDocuments.Designer.cs">
+      <DependentUpon>UcClientDocuments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcDocumentList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcDocumentList.Designer.cs">
+      <DependentUpon>UcDocumentList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcClientList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Client Documents\UcClientList.Designer.cs">
+      <DependentUpon>UcClientList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Users\UcUserList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Users\UcUserList.Designer.cs">
+      <DependentUpon>UcUserList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Users\UcUsers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Users\UcUsers.Designer.cs">
+      <DependentUpon>UcUsers.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RadForm1.resx">
+      <DependentUpon>RadForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Reports\RDLC\RptPaymentSummary.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="Reports\Controls\UcRptNextYrOpnBal.resx">
+      <DependentUpon>UcRptNextYrOpnBal.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Controls\UcRptReconcile.resx">
+      <DependentUpon>UcRptReconcile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Controls\UcRptJournals.resx">
+      <DependentUpon>UcRptJournals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Controls\UcRptThisYrClosingTrialBal.resx">
+      <DependentUpon>UcRptThisYrClosingTrialBal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Controls\UcRptPaymentSummary.resx">
+      <DependentUpon>UcRptPaymentSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Reports\RDLC\RptThisYrClosingTrialBal.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Reports\RDLC\PaymentReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RDLC\ReceiptsReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RDLC\RptJournals.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RDLC\RptMultipleEntJournal.rdlc">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <Content Include="Reports\RDLC\RptReconcile.rdlc">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Reports\RDLC\RptNextYrOpnBal - Copy.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RDLC\RptPLReserve.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RDLC\RptNextYrOpnBal.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RDLC\SDBReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RDLC\SummaryReport.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\UcRDLC_Viewer.resx">
+      <DependentUpon>UcRDLC_Viewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\LedgerMainForm.resx">
+      <DependentUpon>LedgerMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Bank Reconcile\UcBankReconcile.resx">
+      <DependentUpon>UcBankReconcile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client Documents\UcTaggedDocumentList.resx">
+      <DependentUpon>UcTaggedDocumentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client Documents\UcClient.resx">
+      <DependentUpon>UcClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client Documents\UcStarDocumentList.resx">
+      <DependentUpon>UcStarDocumentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ClientGroup\UcGroup.resx">
+      <DependentUpon>UcGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ClientGroup\UcClientGroupList.resx">
+      <DependentUpon>UcClientGroupList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ClientGroup\UcGroupList.resx">
+      <DependentUpon>UcGroupList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Description\UcDescription.resx">
+      <DependentUpon>UcDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Description\UcDescriptionList.resx">
+      <DependentUpon>UcDescriptionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Description\UcFindReplaceDesc.resx">
+      <DependentUpon>UcFindReplaceDesc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\DocBrowser.resx">
+      <DependentUpon>DocBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Journals\UcMultipleEntJournal.resx">
+      <DependentUpon>UcMultipleEntJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Journals\UcJournal.resx">
+      <DependentUpon>UcJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\AccountChart\UcAccountChart.resx">
+      <DependentUpon>UcAccountChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\AccountChart\UcAccountChartList.resx">
+      <DependentUpon>UcAccountChartList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\AccountGroup\UcAccountGroup.resx">
+      <DependentUpon>UcAccountGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\AccountGroup\UcAccountGroupList.resx">
+      <DependentUpon>UcAccountGroupList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\Accounts\UcAccount.resx">
+      <DependentUpon>UcAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\AnalysisCode\UcAnalysisCode.resx">
+      <DependentUpon>UcAnalysisCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\AnalysisCode\UcAnalysisCodeList.resx">
+      <DependentUpon>UcAnalysisCodeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\Banking\UcBanking.resx">
+      <DependentUpon>UcBanking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\BankPayment\UcBankPayment.resx">
+      <DependentUpon>UcBankPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\LedgerReport\UcAnalysisReport.resx">
+      <DependentUpon>UcAnalysisReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\LedgerReport\UcVATReport.resx">
+      <DependentUpon>UcVATReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\LedgerReport\UcLedgerReport.resx">
+      <DependentUpon>UcLedgerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\PCB\UcPCB.resx">
+      <DependentUpon>UcPCB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\PettyCash\UcPettyCash.resx">
+      <DependentUpon>UcPettyCash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\CreateFolder\UcCreateYearEndFolder.resx">
+      <DependentUpon>UcCreateYearEndFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\GenericList\UcGenericList.resx">
+      <DependentUpon>UcGenericList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\GenericList\UcGenericItem.resx">
+      <DependentUpon>UcGenericItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\Supplier\UcSupplierList.resx">
+      <DependentUpon>UcSupplierList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\Supplier\UcSupplier.resx">
+      <DependentUpon>UcSupplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\UcLedger.resx">
+      <DependentUpon>UcLedger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\VATRate\UcVATRate.resx">
+      <DependentUpon>UcVATRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Ledgers\VATRate\UcVATRateList.resx">
+      <DependentUpon>UcVATRateList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIForms\FrmDialougeBox.resx">
+      <DependentUpon>FrmDialougeBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client Documents\UcFolderSelecttion.resx">
+      <DependentUpon>UcFolderSelecttion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client Documents\UcNavigation.resx">
+      <DependentUpon>UcNavigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Payment\UcTestExcel.resx">
+      <DependentUpon>UcTestExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Payment\UcExcelSheet.resx">
+      <DependentUpon>UcExcelSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Popups\UcDateRange.resx">
+      <DependentUpon>UcDateRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Popups\UcSupplierPopup.resx">
+      <DependentUpon>UcSupplierPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Popups\UcInputText.resx">
+      <DependentUpon>UcInputText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Popups\UcUnLockSheet.resx">
+      <DependentUpon>UcUnLockSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Popups\UcGridSearch.resx">
+      <DependentUpon>UcGridSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Popups\UcDescriptionPopup.resx">
+      <DependentUpon>UcDescriptionPopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Popups\UcVATCodePopup.resx">
+      <DependentUpon>UcVATCodePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Popups\UcNominalCodePopup.resx">
+      <DependentUpon>UcNominalCodePopup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\RecycleBin\UcRecycleBin.resx">
+      <DependentUpon>UcRecycleBin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\SDB\UcSDB.resx">
+      <DependentUpon>UcSDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\StyleButton.resx">
+      <DependentUpon>StyleButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client Documents\UcAddDocument.resx">
+      <DependentUpon>UcAddDocument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client Documents\UcClientDocuments.resx">
+      <DependentUpon>UcClientDocuments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client Documents\UcDocumentList.resx">
+      <DependentUpon>UcDocumentList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client Documents\UcClientList.resx">
+      <DependentUpon>UcClientList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client Documents\UcEdit.resx">
+      <DependentUpon>UcEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Popups\UcCalender.resx">
+      <DependentUpon>UcCalender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TrialBalance\UcClosingTrialBalance.resx">
+      <DependentUpon>UcClosingTrialBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TrialBalance\UcTrialBalance.resx">
+      <DependentUpon>UcTrialBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ucLogin.resx">
+      <DependentUpon>UcLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Client Documents\UcSaveFolder.resx">
+      <DependentUpon>UcSaveFolder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\UCPaging.resx">
+      <DependentUpon>UCPaging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Users\UcUserList.resx">
+      <DependentUpon>UcUserList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Users\UcUsers.resx">
+      <DependentUpon>UcUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DMSSettings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>DMSSettings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{CFA5F12B-EBB4-4B92-A9FD-48B2AC3F0F9C}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MakarovDev.ExpandCollapsePanel\MakarovDev.ExpandCollapsePanel.csproj">
+      <Project>{BE76A6FE-225F-4287-9CA0-231F5AF4CDC1}</Project>
+      <Name>MakarovDev.ExpandCollapsePanel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{1AF8EB7D-E13C-47CD-8BCD-7145769B5280}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\msvcr100.dll">
+      <Link>SqlServerTypes\x64\msvcr100.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x64\SqlServerSpatial110.dll">
+      <Link>SqlServerTypes\x64\SqlServerSpatial110.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\msvcr100.dll">
+      <Link>SqlServerTypes\x86\msvcr100.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\packages\Microsoft.SqlServer.Types.11.0.2\nativeBinaries\x86\SqlServerSpatial110.dll">
+      <Link>SqlServerTypes\x86\SqlServerSpatial110.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="dollar.ico" />
+    <Content Include="globe-pre.ico" />
+    <Content Include="globe.ico" />
+    <None Include="Reports\Schema\NewThisYrClosingTBSchema.xsc">
+      <DependentUpon>NewThisYrClosingTBSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\NewThisYrClosingTBSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NewThisYrClosingTBSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Schema\NewThisYrClosingTBSchema.xss">
+      <DependentUpon>NewThisYrClosingTBSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\PaymentReportSchema.xsc">
+      <DependentUpon>PaymentReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Schema\PaymentReportSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PaymentReportSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Schema\PaymentReportSchema.xss">
+      <DependentUpon>PaymentReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Schema\ReceiptsReportSchema.xsc">
+      <DependentUpon>ReceiptsReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Schema\ReceiptsReportSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReceiptsReportSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Schema\ReceiptsReportSchema.xss">
+      <DependentUpon>ReceiptsReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Schema\SummaryReportSchema.xsc">
+      <DependentUpon>SummaryReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Schema\SummaryReportSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SummaryReportSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Schema\SummaryReportSchema.xss">
+      <DependentUpon>SummaryReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Schema\VATReportSchema.xsc">
+      <DependentUpon>VATReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Schema\VATReportSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>VATReportSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Reports\Schema\VATReportSchema.xss">
+      <DependentUpon>VATReportSchema.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\paste.png" />
+    <None Include="Resources\cut.png" />
+    <None Include="Resources\file161.png" />
+    <None Include="Resources\Image1.png" />
+    <None Include="Resources\1472082548_icon-114-lock.png" />
+    <None Include="Resources\1472086392_lock.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\Schema\JournalsReportSchema.xsc">
+      <DependentUpon>JournalsReportSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\JournalsReportSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>JournalsReportSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Schema\JournalsReportSchema.xss">
+      <DependentUpon>JournalsReportSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\MultipleEntJournalsReportSchema.xsc">
+      <DependentUpon>MultipleEntJournalsReportSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\MultipleEntJournalsReportSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MultipleEntJournalsReportSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Schema\MultipleEntJournalsReportSchema.xss">
+      <DependentUpon>MultipleEntJournalsReportSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\NextYrOpnBalReportSchema.xsc">
+      <DependentUpon>NextYrOpnBalReportSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\NextYrOpnBalReportSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NextYrOpnBalReportSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Schema\NextYrOpnBalReportSchema.xss">
+      <DependentUpon>NextYrOpnBalReportSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\PaymentSheetSchema.xsc">
+      <DependentUpon>PaymentSheetSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\PaymentSheetSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PaymentSheetSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Schema\PaymentSheetSchema.xss">
+      <DependentUpon>PaymentSheetSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\PaymentSheetSummarySchema.xsc">
+      <DependentUpon>PaymentSheetSummarySchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\PaymentSheetSummarySchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PaymentSheetSummarySchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Schema\PaymentSheetSummarySchema.xss">
+      <DependentUpon>PaymentSheetSummarySchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\PLReserveReportSchema.xsc">
+      <DependentUpon>PLReserveReportSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\PLReserveReportSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PLReserveReportSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Schema\PLReserveReportSchema.xss">
+      <DependentUpon>PLReserveReportSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\ReconcileReportSchema.xsc">
+      <DependentUpon>ReconcileReportSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\ReconcileReportSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReconcileReportSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Schema\ReconcileReportSchema.xss">
+      <DependentUpon>ReconcileReportSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\ThisYrClosingTrialBalSchema.xsc">
+      <DependentUpon>ThisYrClosingTrialBalSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\Schema\ThisYrClosingTrialBalSchema.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ThisYrClosingTrialBalSchema.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Reports\Schema\ThisYrClosingTrialBalSchema.xss">
+      <DependentUpon>ThisYrClosingTrialBalSchema.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\calender161.png" />
+    <None Include="Resources\clean.png" />
+    <None Include="Resources\calender16.png" />
+    <None Include="Resources\money.png" />
+    <None Include="Resources\imgtext.png" />
+    <None Include="Resources\1399560991_647702-excel.png" />
+    <None Include="Resources\mail_blue.png" />
+    <None Include="Resources\mail_red.png" />
+    <None Include="Resources\redarrow.png" />
+    <None Include="Resources\icon-expand.png" />
+    <None Include="Resources\blackStar.png" />
+    <None Include="Resources\goldenStar.png" />
+    <None Include="Resources\Up_Arrow.png" />
+    <None Include="Resources\Down_Arrow.png" />
+    <None Include="Resources\ImgNoPreview.png" />
+    <None Include="Resources\imgPreview.png" />
+    <None Include="Resources\reminder.png" />
+    <None Include="Resources\oie_2919547GuD5Cb5r.gif" />
+    <None Include="Resources\download %281%29.jpg" />
+    <None Include="Resources\download.jpg" />
+    <None Include="Resources\processing.gif" />
+    <None Include="Resources\resfresh.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\Edit 16.png" />
+    <None Include="Resources\empty.xlsx" />
+    <None Include="Resources\logout32.png" />
+    <None Include="Resources\logout.png" />
+    <None Include="Resources\COPY.GIF" />
+    <None Include="Resources\DOCLINK.GIF" />
+    <None Include="Resources\CMSRemoveImage.GIF" />
+    <None Include="Resources\CLOSEA.GIF" />
+    <None Include="Resources\mewa_download.gif" />
+    <None Include="Resources\FOLDER.GIF" />
+    <None Include="Resources\NEWDL.GIF" />
+    <None Include="Resources\choicebrowse.gif" />
+    <None Include="Resources\UPFOLDER.GIF" />
+    <None Include="Images\backArrow.png" />
+    <None Include="Resources\bitmap16.png" />
+    <None Include="Resources\download24.png" />
+    <None Include="Resources\delete48.png" />
+    <None Include="Resources\file16.png" />
+    <None Include="Resources\imgFile16.png" />
+    <None Include="Resources\word16.png" />
+    <None Include="Resources\pdf16.png" />
+    <None Include="Resources\1349805905_Folder.png" />
+    <None Include="Resources\1349804800_Folder.png" />
+    <None Include="Resources\imgFolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\error-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\information-balloon small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imgError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,131 @@
+
+---   09/11/2018 17:39:35   ---
+Error: Column 'Details' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DMS.CustomClasses.JournalsGrid.sBindData(DataTable dt) in e:\Code\Ledger\DMS\CustomClasses\LedgerGrid\JournalsGrid.cs:line 76
+   at DMS.UserControls.UcJournal.LoadData() in e:\Code\Ledger\DMS\UserControls\Journals\UcJournal.cs:line 82
+   at DMS.UserControls.UcJournal.UcExcelSheet_Load(Object sender, EventArgs e) in e:\Code\Ledger\DMS\UserControls\Journals\UcJournal.cs:line 64
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   at System.Windows.Forms.UserControl.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at DMS.DisplayManager.LoadControlInPanel(UserControlBase uc, UserControlBase preForm) in e:\Code\Ledger\DMS\CustomClasses\DisplayManager.cs:line 212
+   at DMS.DisplayManager.LoadControl(UserControlBase uc, Boolean loadPreviousCnt, UserControlBase preForm) in e:\Code\Ledger\DMS\CustomClasses\DisplayManager.cs:line 189
+   at DMS.UcNavigation.OpenVirtualFile(tblDocumentItem itm, UserControlBase parentCntrl) in e:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 660
+   at DMS.UcNavigation.grdDocuments_DoubleClick(Object sender, EventArgs e) in e:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 576
+   at System.Windows.Forms.Control.OnDoubleClick(EventArgs e)
+   at Telerik.WinControls.RadControl.OnDoubleClick(EventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at Telerik.WinControls.RadControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+---   09/11/2018 17:39:46   ---
+Error: Column 'Details' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DMS.CustomClasses.JournalsGrid.sBindData(DataTable dt) in e:\Code\Ledger\DMS\CustomClasses\LedgerGrid\JournalsGrid.cs:line 76
+   at DMS.UserControls.UcJournal.LoadData() in e:\Code\Ledger\DMS\UserControls\Journals\UcJournal.cs:line 82
+   at DMS.UserControls.UcJournal.UcExcelSheet_Load(Object sender, EventArgs e) in e:\Code\Ledger\DMS\UserControls\Journals\UcJournal.cs:line 64
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   at System.Windows.Forms.UserControl.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at DMS.DisplayManager.LoadControlInPanel(UserControlBase uc, UserControlBase preForm) in e:\Code\Ledger\DMS\CustomClasses\DisplayManager.cs:line 212
+   at DMS.DisplayManager.LoadControl(UserControlBase uc, Boolean loadPreviousCnt, UserControlBase preForm) in e:\Code\Ledger\DMS\CustomClasses\DisplayManager.cs:line 189
+   at DMS.UcNavigation.OpenVirtualFile(tblDocumentItem itm, UserControlBase parentCntrl) in e:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 660
+   at DMS.UcNavigation.grdDocuments_DoubleClick(Object sender, EventArgs e) in e:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 576
+   at System.Windows.Forms.Control.OnDoubleClick(EventArgs e)
+   at Telerik.WinControls.RadControl.OnDoubleClick(EventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at Telerik.WinControls.RadControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+---   09/11/2018 17:40:44   ---
+Error: Column 'Details' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DMS.CustomClasses.JournalsGrid.sBindData(DataTable dt) in e:\Code\Ledger\DMS\CustomClasses\LedgerGrid\JournalsGrid.cs:line 76
+   at DMS.UserControls.UcJournal.LoadData() in e:\Code\Ledger\DMS\UserControls\Journals\UcJournal.cs:line 82
+   at DMS.UserControls.UcJournal.UcExcelSheet_Load(Object sender, EventArgs e) in e:\Code\Ledger\DMS\UserControls\Journals\UcJournal.cs:line 64
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   at System.Windows.Forms.UserControl.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at DMS.DisplayManager.LoadControlInPanel(UserControlBase uc, UserControlBase preForm) in e:\Code\Ledger\DMS\CustomClasses\DisplayManager.cs:line 212
+   at DMS.DisplayManager.LoadControl(UserControlBase uc, Boolean loadPreviousCnt, UserControlBase preForm) in e:\Code\Ledger\DMS\CustomClasses\DisplayManager.cs:line 189
+   at DMS.UcNavigation.OpenVirtualFile(tblDocumentItem itm, UserControlBase parentCntrl) in e:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 660
+   at DMS.UcNavigation.grdDocuments_DoubleClick(Object sender, EventArgs e) in e:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 576
+   at System.Windows.Forms.Control.OnDoubleClick(EventArgs e)
+   at Telerik.WinControls.RadControl.OnDoubleClick(EventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at Telerik.WinControls.RadControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+---   09/11/2018 18:10:29   ---
+Error: Column 'Details' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DMS.CustomClasses.JournalsGrid.sBindData(DataTable dt) in e:\Code\Ledger\DMS\CustomClasses\LedgerGrid\JournalsGrid.cs:line 76
+   at DMS.UserControls.UcJournal.LoadData() in e:\Code\Ledger\DMS\UserControls\Journals\UcJournal.cs:line 82
+   at DMS.UserControls.UcJournal.UcExcelSheet_Load(Object sender, EventArgs e) in e:\Code\Ledger\DMS\UserControls\Journals\UcJournal.cs:line 64
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   at System.Windows.Forms.UserControl.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at DMS.DisplayManager.LoadControlInPanel(UserControlBase uc, UserControlBase preForm) in e:\Code\Ledger\DMS\CustomClasses\DisplayManager.cs:line 212
+   at DMS.DisplayManager.LoadControl(UserControlBase uc, Boolean loadPreviousCnt, UserControlBase preForm) in e:\Code\Ledger\DMS\CustomClasses\DisplayManager.cs:line 189
+   at DMS.UcNavigation.OpenVirtualFile(tblDocumentItem itm, UserControlBase parentCntrl) in e:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 660
+   at DMS.UcNavigation.grdDocuments_DoubleClick(Object sender, EventArgs e) in e:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 576
+   at System.Windows.Forms.Control.OnDoubleClick(EventArgs e)
+   at Telerik.WinControls.RadControl.OnDoubleClick(EventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at Telerik.WinControls.RadControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+---   09/11/2018 18:18:52   ---
+Error: Column 'Details' does not belong to table Table.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at DMS.CustomClasses.JournalsGrid.sBindData(DataTable dt) in e:\Code\Ledger\DMS\CustomClasses\LedgerGrid\JournalsGrid.cs:line 76
+   at DMS.UserControls.UcJournal.LoadData() in e:\Code\Ledger\DMS\UserControls\Journals\UcJournal.cs:line 82
+   at DMS.UserControls.UcJournal.UcExcelSheet_Load(Object sender, EventArgs e) in e:\Code\Ledger\DMS\UserControls\Journals\UcJournal.cs:line 64
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Windows.Forms.UserControl.OnLoad(EventArgs e)
+   at System.Windows.Forms.UserControl.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   at DMS.DisplayManager.LoadControlInPanel(UserControlBase uc, UserControlBase preForm) in e:\Code\Ledger\DMS\CustomClasses\DisplayManager.cs:line 212
+   at DMS.DisplayManager.LoadControl(UserControlBase uc, Boolean loadPreviousCnt, UserControlBase preForm) in e:\Code\Ledger\DMS\CustomClasses\DisplayManager.cs:line 189
+   at DMS.UcNavigation.OpenVirtualFile(tblDocumentItem itm, UserControlBase parentCntrl) in e:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 660
+   at DMS.UcNavigation.grdDocuments_DoubleClick(Object sender, EventArgs e) in e:\Code\Ledger\DMS\UserControls\Client Documents\UcNavigation.cs:line 576
+   at System.Windows.Forms.Control.OnDoubleClick(EventArgs e)
+   at Telerik.WinControls.RadControl.OnDoubleClick(EventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at Telerik.WinControls.RadControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)

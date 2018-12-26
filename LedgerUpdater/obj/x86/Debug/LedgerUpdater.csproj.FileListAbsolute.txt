@@ -1,0 +1,16 @@
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\bin\x86\Debug\LedgerUpdater.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\bin\x86\Debug\LedgerUpdater.pdb
+E:\Source Code\Ledger Executable\LedgerUpdater.exe
+E:\Source Code\Ledger Executable\LedgerUpdater.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\obj\x86\Debug\LedgerUpdater.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\obj\x86\Debug\LedgerUpdater.Form1.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\obj\x86\Debug\LedgerUpdater.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\obj\x86\Debug\LedgerUpdater.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\obj\x86\Debug\LedgerUpdater.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Ledger code\LedgerUpdater\obj\x86\Debug\LedgerUpdater.pdb
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\LedgerUpdater\obj\x86\Debug\LedgerUpdater.csprojResolveAssemblyReference.cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\LedgerUpdater\obj\x86\Debug\LedgerUpdater.Form1.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\LedgerUpdater\obj\x86\Debug\LedgerUpdater.Properties.Resources.resources
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\LedgerUpdater\obj\x86\Debug\LedgerUpdater.csproj.GenerateResource.Cache
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\LedgerUpdater\obj\x86\Debug\LedgerUpdater.exe
+E:\Source Code\Projects\oDesk\Ivan\Ledger\Code\Ledger Code functional\LedgerUpdater\obj\x86\Debug\LedgerUpdater.pdb
